@@ -1,0 +1,78 @@
+[{
+  "_id": {
+    "$oid": "5fcf77d4cb47d83b983dc54b"
+  },
+  "Title": "Морские змеи",
+  "published_at": {
+    "$date": "2020-12-08T12:55:50.439Z"
+  },
+  "createdAt": {
+    "$date": "2020-12-08T12:55:48.450Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T13:09:09.393Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "article": {
+    "$oid": "5fcf7716cb47d83b983dc549"
+  },
+  "category": null,
+  "subcategory": {
+    "$oid": "5fcf7aef413ed430b45706e2"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf7812cb47d83b983dc54c"
+  },
+  "Title": "Тропические ракообразные",
+  "published_at": {
+    "$date": "2020-12-08T12:56:52.656Z"
+  },
+  "createdAt": {
+    "$date": "2020-12-08T12:56:50.538Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T13:07:16.448Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "article": {
+    "$oid": "5fcf7773cb47d83b983dc54a"
+  },
+  "subcategory": null
+},{
+  "_id": {
+    "$oid": "5fcf7aef413ed430b45706e2"
+  },
+  "Title": "Морские змеи child",
+  "published_at": {
+    "$date": "2020-12-08T13:09:23.708Z"
+  },
+  "createdAt": {
+    "$date": "2020-12-08T13:09:03.295Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T13:09:23.724Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "subcategory": {
+    "$oid": "5fcf7aef413ed430b45706e2"
+  }
+}]
