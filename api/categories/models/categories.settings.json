@@ -11,18 +11,27 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string",
       "required": true,
       "unique": true
     },
-    "parent": {
-      "model": "categories",
-      "via": "subcategory"
+    "cover": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
     },
-    "subcategory": {
+    "subcategories": {
+      "collection": "categories",
+      "via": "category"
+    },
+    "category": {
       "model": "categories",
-      "via": "parent"
+      "via": "subcategories"
     }
   }
 }

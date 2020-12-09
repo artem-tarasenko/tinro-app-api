@@ -11,17 +11,21 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string",
       "required": true,
       "unique": true
     },
-    "Subtitle": {
+    "subtitle": {
       "type": "string",
       "default": "latin"
     },
-    "Content": {
+    "content": {
       "type": "richtext"
+    },
+    "number": {
+      "type": "string",
+      "unique": true
     }
   }
 }
