@@ -1,16 +1,16 @@
 [{
   "_id": {
-    "$oid": "5fcf77d4cb47d83b983dc54b"
+    "$oid": "5fd0dce85b05e98144ee3325"
   },
-  "Title": "Морские змеи",
+  "title": "Морские змеи (статьи)",
   "published_at": {
-    "$date": "2020-12-08T12:55:50.439Z"
+    "$date": "2020-12-09T14:31:35.287Z"
   },
   "createdAt": {
-    "$date": "2020-12-08T12:55:48.450Z"
+    "$date": "2020-12-09T14:19:20.615Z"
   },
   "updatedAt": {
-    "$date": "2020-12-08T13:09:09.393Z"
+    "$date": "2020-12-10T11:05:04.173Z"
   },
   "__v": 0,
   "created_by": {
@@ -19,26 +19,46 @@
   "updated_by": {
     "$oid": "5fcf75afa81fac474830d062"
   },
-  "article": {
-    "$oid": "5fcf7716cb47d83b983dc549"
+  "cover": {
+    "$oid": "5fd0deb7246cf87eb4cac47b"
   },
-  "category": null,
-  "subcategory": {
-    "$oid": "5fcf7aef413ed430b45706e2"
-  }
+  "category": {
+    "$oid": "5fd0e2b10789a677dccc9883"
+  },
+  "articles": [
+    {
+      "$oid": "5fcf7716cb47d83b983dc549"
+    },
+    {
+      "$oid": "5fcf7773cb47d83b983dc54a"
+    },
+    {
+      "$oid": "5fd200788aaba30194693a6e"
+    },
+    {
+      "$oid": "5fd200608aaba30194693a6c"
+    },
+    {
+      "$oid": "5fd2009a8aaba30194693a70"
+    },
+    {
+      "$oid": "5fd200b28aaba30194693a72"
+    }
+  ],
+  "subcategories": []
 },{
   "_id": {
-    "$oid": "5fcf7812cb47d83b983dc54c"
+    "$oid": "5fd0dd025b05e98144ee3326"
   },
-  "Title": "Тропические ракообразные",
+  "title": "Тропические ракообразные (описание)",
   "published_at": {
-    "$date": "2020-12-08T12:56:52.656Z"
+    "$date": "2020-12-09T14:19:48.003Z"
   },
   "createdAt": {
-    "$date": "2020-12-08T12:56:50.538Z"
+    "$date": "2020-12-09T14:19:46.271Z"
   },
   "updatedAt": {
-    "$date": "2020-12-08T13:07:16.448Z"
+    "$date": "2020-12-10T11:10:41.472Z"
   },
   "__v": 0,
   "created_by": {
@@ -47,23 +67,27 @@
   "updated_by": {
     "$oid": "5fcf75afa81fac474830d062"
   },
-  "article": {
-    "$oid": "5fcf7773cb47d83b983dc54a"
+  "cover": {
+    "$oid": "5fd0e08f0789a677dccc9879"
   },
-  "subcategory": null
+  "category": {
+    "$oid": "5fd0e2b10789a677dccc9883"
+  },
+  "articles": [],
+  "subcategories": []
 },{
   "_id": {
-    "$oid": "5fcf7aef413ed430b45706e2"
+    "$oid": "5fd0dd0f5b05e98144ee3327"
   },
-  "Title": "Морские змеи child",
+  "title": "Тропические иглокожие (статьи)",
   "published_at": {
-    "$date": "2020-12-08T13:09:23.708Z"
+    "$date": "2020-12-09T14:20:01.530Z"
   },
   "createdAt": {
-    "$date": "2020-12-08T13:09:03.295Z"
+    "$date": "2020-12-09T14:19:59.455Z"
   },
   "updatedAt": {
-    "$date": "2020-12-08T13:09:23.724Z"
+    "$date": "2020-12-10T11:05:55.299Z"
   },
   "__v": 0,
   "created_by": {
@@ -72,7 +96,272 @@
   "updated_by": {
     "$oid": "5fcf75afa81fac474830d062"
   },
-  "subcategory": {
-    "$oid": "5fcf7aef413ed430b45706e2"
+  "cover": {
+    "$oid": "5fd0e0b50789a677dccc987e"
+  },
+  "category": {
+    "$oid": "5fd0e2b10789a677dccc9883"
+  },
+  "articles": [
+    {
+      "$oid": "5fcf7716cb47d83b983dc549"
+    },
+    {
+      "$oid": "5fd200608aaba30194693a6c"
+    },
+    {
+      "$oid": "5fd200788aaba30194693a6e"
+    },
+    {
+      "$oid": "5fd2009a8aaba30194693a70"
+    },
+    {
+      "$oid": "5fd200b28aaba30194693a72"
+    }
+  ],
+  "subcategories": []
+},{
+  "_id": {
+    "$oid": "5fd0dd1d5b05e98144ee3328"
+  },
+  "title": "Эмбрионы хрящевых рыб",
+  "published_at": {
+    "$date": "2020-12-09T14:20:16.885Z"
+  },
+  "createdAt": {
+    "$date": "2020-12-09T14:20:13.627Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-10T11:09:10.711Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "cover": {
+    "$oid": "5fd0e0b50789a677dccc987e"
+  },
+  "category": {
+    "$oid": "5fd0e2b10789a677dccc9883"
+  },
+  "articles": [],
+  "subcategories": [
+    {
+      "$oid": "5fd0dd335b05e98144ee332a"
+    },
+    {
+      "$oid": "5fd0dce85b05e98144ee3325"
+    },
+    {
+      "$oid": "5fd0dd025b05e98144ee3326"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5fd0dd295b05e98144ee3329"
+  },
+  "title": "Тропические кораллы (описание)",
+  "published_at": {
+    "$date": "2020-12-09T14:20:27.939Z"
+  },
+  "createdAt": {
+    "$date": "2020-12-09T14:20:25.968Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-10T11:06:36.387Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "cover": {
+    "$oid": "5fd0deb7246cf87eb4cac47b"
+  },
+  "category": {
+    "$oid": "5fd0e2b10789a677dccc9883"
+  },
+  "articles": [],
+  "subcategories": []
+},{
+  "_id": {
+    "$oid": "5fd0dd335b05e98144ee332a"
+  },
+  "title": "Тропические моллюски (описание)",
+  "published_at": {
+    "$date": "2020-12-09T14:20:37.297Z"
+  },
+  "createdAt": {
+    "$date": "2020-12-09T14:20:35.337Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-10T11:10:52.413Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "cover": {
+    "$oid": "5fd0deb7246cf87eb4cac47b"
+  },
+  "category": {
+    "$oid": "5fd0e2b10789a677dccc9883"
+  },
+  "articles": [],
+  "subcategories": []
+},{
+  "_id": {
+    "$oid": "5fd0e0740789a677dccc9877"
+  },
+  "title": "Тропическое дно (подразд)",
+  "published_at": {
+    "$date": "2020-12-09T14:34:31.106Z"
+  },
+  "createdAt": {
+    "$date": "2020-12-09T14:34:28.934Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-10T11:08:36.224Z"
+  },
+  "__v": 0,
+  "cover": {
+    "$oid": "5fd0deb7246cf87eb4cac47b"
+  },
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "category": {
+    "$oid": "5fd0e2b10789a677dccc9883"
+  },
+  "articles": [],
+  "subcategories": [
+    {
+      "$oid": "5fd0dce85b05e98144ee3325"
+    },
+    {
+      "$oid": "5fd0dd0f5b05e98144ee3327"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5fd0e0920789a677dccc987a"
+  },
+  "title": "Тропические рыбы (подразделы)",
+  "published_at": {
+    "$date": "2020-12-09T14:35:00.813Z"
+  },
+  "createdAt": {
+    "$date": "2020-12-09T14:34:58.968Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-10T11:07:25.547Z"
+  },
+  "__v": 0,
+  "cover": {
+    "$oid": "5fd0e08f0789a677dccc9879"
+  },
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "category": {
+    "$oid": "5fd0e2b10789a677dccc9883"
+  },
+  "articles": [],
+  "subcategories": [
+    {
+      "$oid": "5fd0dd025b05e98144ee3326"
+    },
+    {
+      "$oid": "5fd0dd295b05e98144ee3329"
+    },
+    {
+      "$oid": "5fd0dd335b05e98144ee332a"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5fd0e2b10789a677dccc9883"
+  },
+  "title": "ТРОПИЧЕСКИЙ ЗАЛ",
+  "published_at": {
+    "$date": "2020-12-09T15:07:23.786Z"
+  },
+  "createdAt": {
+    "$date": "2020-12-09T14:44:01.785Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-10T11:13:18.163Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "articles": [],
+  "subcategories": [
+    {
+      "$oid": "5fd0dce85b05e98144ee3325"
+    },
+    {
+      "$oid": "5fd0dd025b05e98144ee3326"
+    },
+    {
+      "$oid": "5fd0e0740789a677dccc9877"
+    },
+    {
+      "$oid": "5fd0e0920789a677dccc987a"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5fd219818aaba30194693a74"
+  },
+  "subcategories": [
+    {
+      "$oid": "5fd0dd025b05e98144ee3326"
+    },
+    {
+      "$oid": "5fd0dd0f5b05e98144ee3327"
+    },
+    {
+      "$oid": "5fd0e0740789a677dccc9877"
+    },
+    {
+      "$oid": "5fd0e0920789a677dccc987a"
+    }
+  ],
+  "articles": [],
+  "title": "ДАЛЬНЕВОСТОЧНЫЙ ЗАЛ",
+  "published_at": {
+    "$date": "2020-12-10T12:52:19.940Z"
+  },
+  "createdAt": {
+    "$date": "2020-12-10T12:50:09.261Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-10T12:52:19.979Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
   }
 }]
