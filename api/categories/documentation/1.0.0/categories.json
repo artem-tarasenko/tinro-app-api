@@ -657,6 +657,9 @@
                   "type": "string"
                 }
               },
+              "cover": {
+                "type": "string"
+              },
               "published_at": {
                 "type": "string"
               },
@@ -694,6 +697,9 @@
                 "items": {
                   "type": "string"
                 }
+              },
+              "cover": {
+                "type": "string"
               },
               "published_at": {
                 "type": "string"
