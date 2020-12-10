@@ -26,12 +26,13 @@
       "required": true
     },
     "subcategories": {
-      "collection": "categories",
-      "via": "category"
+      "collection": "categories"
     },
-    "category": {
-      "model": "categories",
-      "via": "subcategories"
+    "articles": {
+      "collection": "article"
+    },
+    "description": {
+      "model": "article"
     }
   }
 }
