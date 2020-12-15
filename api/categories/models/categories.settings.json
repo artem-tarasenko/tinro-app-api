@@ -26,13 +26,20 @@
       "required": true
     },
     "subcategories": {
-      "collection": "categories"
+      "collection": "categories",
+      "via": "parentCategory"
+    },
+    "parentCategory": {
+      "model": "categories",
+      "via": "subcategories"
     },
     "articles": {
-      "collection": "article"
+      "collection": "article",
+      "via": "parentCategory"
     },
     "description": {
-      "model": "article"
+      "model": "article",
+      "via": "categoryForDescription"
     }
   }
 }

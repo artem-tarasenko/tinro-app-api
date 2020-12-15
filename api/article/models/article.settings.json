@@ -47,6 +47,14 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "parentCategory": {
+      "via": "articles",
+      "model": "categories"
+    },
+    "categoryForDescription": {
+      "via": "description",
+      "model": "categories"
     }
   }
 }
