@@ -1,3 +1,1 @@
-# Strapi application
-
-A quick description of your strapi application
+# Tinro API app for MongoDB 
