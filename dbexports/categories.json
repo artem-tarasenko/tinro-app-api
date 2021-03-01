@@ -2,7 +2,7 @@
   "_id": {
     "$oid": "5fd0dce85b05e98144ee3325"
   },
-  "title": "Морские змеи (статьи)",
+  "title": "Морские змеи",
   "published_at": {
     "$date": "2020-12-09T14:31:35.287Z"
   },
@@ -10,7 +10,7 @@
     "$date": "2020-12-09T14:19:20.615Z"
   },
   "updatedAt": {
-    "$date": "2020-12-10T11:05:04.173Z"
+    "$date": "2020-12-15T10:20:50.551Z"
   },
   "__v": 0,
   "created_by": {
@@ -20,7 +20,7 @@
     "$oid": "5fcf75afa81fac474830d062"
   },
   "cover": {
-    "$oid": "5fd0deb7246cf87eb4cac47b"
+    "$oid": "5fd0e0b50789a677dccc987e"
   },
   "category": {
     "$oid": "5fd0e2b10789a677dccc9883"
@@ -45,12 +45,15 @@
       "$oid": "5fd200b28aaba30194693a72"
     }
   ],
-  "subcategories": []
+  "subcategories": [],
+  "parentCategory": {
+    "$oid": "5fd219818aaba30194693a74"
+  }
 },{
   "_id": {
     "$oid": "5fd0dd025b05e98144ee3326"
   },
-  "title": "Тропические ракообразные (описание)",
+  "title": "Тропические ракообразные",
   "published_at": {
     "$date": "2020-12-09T14:19:48.003Z"
   },
@@ -58,7 +61,7 @@
     "$date": "2020-12-09T14:19:46.271Z"
   },
   "updatedAt": {
-    "$date": "2020-12-10T11:10:41.472Z"
+    "$date": "2020-12-15T10:22:02.003Z"
   },
   "__v": 0,
   "created_by": {
@@ -68,18 +71,21 @@
     "$oid": "5fcf75afa81fac474830d062"
   },
   "cover": {
-    "$oid": "5fd0e08f0789a677dccc9879"
+    "$oid": "5fd0e0b50789a677dccc987e"
   },
   "category": {
     "$oid": "5fd0e2b10789a677dccc9883"
   },
   "articles": [],
-  "subcategories": []
+  "subcategories": [],
+  "parentCategory": {
+    "$oid": "5fd0e2b10789a677dccc9883"
+  }
 },{
   "_id": {
     "$oid": "5fd0dd0f5b05e98144ee3327"
   },
-  "title": "Тропические иглокожие (статьи)",
+  "title": "Тропические иглокожие",
   "published_at": {
     "$date": "2020-12-09T14:20:01.530Z"
   },
@@ -87,7 +93,7 @@
     "$date": "2020-12-09T14:19:59.455Z"
   },
   "updatedAt": {
-    "$date": "2020-12-10T11:05:55.299Z"
+    "$date": "2020-12-15T10:22:23.092Z"
   },
   "__v": 0,
   "created_by": {
@@ -119,7 +125,10 @@
       "$oid": "5fd200b28aaba30194693a72"
     }
   ],
-  "subcategories": []
+  "subcategories": [],
+  "parentCategory": {
+    "$oid": "5fd0e2b10789a677dccc9883"
+  }
 },{
   "_id": {
     "$oid": "5fd0dd1d5b05e98144ee3328"
@@ -132,7 +141,7 @@
     "$date": "2020-12-09T14:20:13.627Z"
   },
   "updatedAt": {
-    "$date": "2020-12-10T11:09:10.711Z"
+    "$date": "2020-12-15T10:20:50.551Z"
   },
   "__v": 0,
   "created_by": {
@@ -158,12 +167,15 @@
     {
       "$oid": "5fd0dd025b05e98144ee3326"
     }
-  ]
+  ],
+  "parentCategory": {
+    "$oid": "5fd219818aaba30194693a74"
+  }
 },{
   "_id": {
     "$oid": "5fd0dd295b05e98144ee3329"
   },
-  "title": "Тропические кораллы (описание)",
+  "title": "Тропические кораллы",
   "published_at": {
     "$date": "2020-12-09T14:20:27.939Z"
   },
@@ -171,7 +183,7 @@
     "$date": "2020-12-09T14:20:25.968Z"
   },
   "updatedAt": {
-    "$date": "2020-12-10T11:06:36.387Z"
+    "$date": "2020-12-15T10:21:35.959Z"
   },
   "__v": 0,
   "created_by": {
@@ -181,18 +193,21 @@
     "$oid": "5fcf75afa81fac474830d062"
   },
   "cover": {
-    "$oid": "5fd0deb7246cf87eb4cac47b"
+    "$oid": "5fd0e0b50789a677dccc987e"
   },
   "category": {
     "$oid": "5fd0e2b10789a677dccc9883"
   },
   "articles": [],
-  "subcategories": []
+  "subcategories": [],
+  "parentCategory": {
+    "$oid": "5fd0e2b10789a677dccc9883"
+  }
 },{
   "_id": {
     "$oid": "5fd0dd335b05e98144ee332a"
   },
-  "title": "Тропические моллюски (описание)",
+  "title": "Тропические моллюски",
   "published_at": {
     "$date": "2020-12-09T14:20:37.297Z"
   },
@@ -200,7 +215,7 @@
     "$date": "2020-12-09T14:20:35.337Z"
   },
   "updatedAt": {
-    "$date": "2020-12-10T11:10:52.413Z"
+    "$date": "2020-12-19T13:32:56.736Z"
   },
   "__v": 0,
   "created_by": {
@@ -210,18 +225,21 @@
     "$oid": "5fcf75afa81fac474830d062"
   },
   "cover": {
-    "$oid": "5fd0deb7246cf87eb4cac47b"
+    "$oid": "5fde00fdc5bdb72584a0fedc"
   },
   "category": {
     "$oid": "5fd0e2b10789a677dccc9883"
   },
   "articles": [],
-  "subcategories": []
+  "subcategories": [],
+  "parentCategory": {
+    "$oid": "5fd0dd025b05e98144ee3326"
+  }
 },{
   "_id": {
     "$oid": "5fd0e0740789a677dccc9877"
   },
-  "title": "Тропическое дно (подразд)",
+  "title": "Тропическое дно",
   "published_at": {
     "$date": "2020-12-09T14:34:31.106Z"
   },
@@ -229,11 +247,11 @@
     "$date": "2020-12-09T14:34:28.934Z"
   },
   "updatedAt": {
-    "$date": "2020-12-10T11:08:36.224Z"
+    "$date": "2020-12-20T00:41:18.812Z"
   },
   "__v": 0,
   "cover": {
-    "$oid": "5fd0deb7246cf87eb4cac47b"
+    "$oid": "5fd0e0b50789a677dccc987e"
   },
   "created_by": {
     "$oid": "5fcf75afa81fac474830d062"
@@ -252,12 +270,15 @@
     {
       "$oid": "5fd0dd0f5b05e98144ee3327"
     }
-  ]
+  ],
+  "parentCategory": {
+    "$oid": "5fd0dd025b05e98144ee3326"
+  }
 },{
   "_id": {
     "$oid": "5fd0e0920789a677dccc987a"
   },
-  "title": "Тропические рыбы (подразделы)",
+  "title": "Тропические рыбы",
   "published_at": {
     "$date": "2020-12-09T14:35:00.813Z"
   },
@@ -265,11 +286,11 @@
     "$date": "2020-12-09T14:34:58.968Z"
   },
   "updatedAt": {
-    "$date": "2020-12-10T11:07:25.547Z"
+    "$date": "2020-12-19T14:23:49.673Z"
   },
   "__v": 0,
   "cover": {
-    "$oid": "5fd0e08f0789a677dccc9879"
+    "$oid": "5fd0e0b50789a677dccc987e"
   },
   "created_by": {
     "$oid": "5fcf75afa81fac474830d062"
@@ -291,7 +312,10 @@
     {
       "$oid": "5fd0dd335b05e98144ee332a"
     }
-  ]
+  ],
+  "parentCategory": {
+    "$oid": "5fd0dd0f5b05e98144ee3327"
+  }
 },{
   "_id": {
     "$oid": "5fd0e2b10789a677dccc9883"
@@ -304,7 +328,7 @@
     "$date": "2020-12-09T14:44:01.785Z"
   },
   "updatedAt": {
-    "$date": "2020-12-10T11:13:18.163Z"
+    "$date": "2020-12-15T10:21:35.962Z"
   },
   "__v": 0,
   "created_by": {
@@ -326,6 +350,18 @@
     },
     {
       "$oid": "5fd0e0920789a677dccc987a"
+    },
+    {
+      "$oid": "5fd0dd1d5b05e98144ee3328"
+    },
+    {
+      "$oid": "5fd0dd0f5b05e98144ee3327"
+    },
+    {
+      "$oid": "5fd0dd335b05e98144ee332a"
+    },
+    {
+      "$oid": "5fd0dd295b05e98144ee3329"
     }
   ]
 },{
@@ -344,6 +380,9 @@
     },
     {
       "$oid": "5fd0e0920789a677dccc987a"
+    },
+    {
+      "$oid": "5fd0dd1d5b05e98144ee3328"
     }
   ],
   "articles": [],
@@ -355,11 +394,38 @@
     "$date": "2020-12-10T12:50:09.261Z"
   },
   "updatedAt": {
-    "$date": "2020-12-10T12:52:19.979Z"
+    "$date": "2020-12-15T10:20:50.554Z"
   },
   "__v": 0,
   "created_by": {
     "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  }
+},{
+  "_id": {
+    "$oid": "5fde9ce011fce1250488ed82"
+  },
+  "title": "Мандрепоровые кораллы",
+  "published_at": {
+    "$date": "2020-12-20T00:37:55.326Z"
+  },
+  "createdAt": {
+    "$date": "2020-12-20T00:37:52.789Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-20T00:37:55.346Z"
+  },
+  "__v": 0,
+  "cover": {
+    "$oid": "5fde9ccb11fce1250488ed81"
+  },
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "parentCategory": {
+    "$oid": "5fd0dd295b05e98144ee3329"
   },
   "updated_by": {
     "$oid": "5fcf75afa81fac474830d062"

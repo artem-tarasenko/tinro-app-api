@@ -518,7 +518,8 @@
         "required": [
           "id",
           "title",
-          "cover"
+          "cover",
+          "Parent"
         ],
         "properties": {
           "id": {
@@ -595,10 +596,69 @@
             }
           },
           "subcategories": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id",
+                "title",
+                "cover",
+                "Parent"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "cover": {
+                  "type": "string"
+                },
+                "subcategories": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "parentCategory": {
+                  "type": "string"
+                },
+                "articles": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "description": {
+                  "type": "string"
+                },
+                "LeftParent": {
+                  "type": "boolean"
+                },
+                "RightParent": {
+                  "type": "boolean"
+                },
+                "Parent": {
+                  "type": "string"
+                },
+                "published_at": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "parentCategory": {
             "required": [
               "id",
               "title",
-              "cover"
+              "cover",
+              "Parent"
             ],
             "properties": {
               "id": {
@@ -611,12 +671,30 @@
                 "type": "string"
               },
               "subcategories": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "parentCategory": {
                 "type": "string"
               },
               "articles": {
-                "type": "string"
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
               },
               "description": {
+                "type": "string"
+              },
+              "LeftParent": {
+                "type": "boolean"
+              },
+              "RightParent": {
+                "type": "boolean"
+              },
+              "Parent": {
                 "type": "string"
               },
               "published_at": {
@@ -631,43 +709,55 @@
             }
           },
           "articles": {
-            "required": [
-              "id",
-              "title"
-            ],
-            "properties": {
-              "id": {
-                "type": "string"
-              },
-              "title": {
-                "type": "string"
-              },
-              "subtitle": {
-                "type": "string"
-              },
-              "content": {
-                "type": "string"
-              },
-              "number": {
-                "type": "string"
-              },
-              "gallery": {
-                "type": "array",
-                "items": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id",
+                "title"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "subtitle": {
+                  "type": "string"
+                },
+                "content": {
+                  "type": "string"
+                },
+                "number": {
+                  "type": "string"
+                },
+                "gallery": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "cover": {
+                  "type": "string"
+                },
+                "parentCategory": {
+                  "type": "string"
+                },
+                "categoryDescription": {
+                  "type": "string"
+                },
+                "ParentCategoryFilter": {
+                  "type": "string"
+                },
+                "published_at": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
                   "type": "string"
                 }
-              },
-              "cover": {
-                "type": "string"
-              },
-              "published_at": {
-                "type": "string"
-              },
-              "created_by": {
-                "type": "string"
-              },
-              "updated_by": {
-                "type": "string"
               }
             }
           },
@@ -701,6 +791,15 @@
               "cover": {
                 "type": "string"
               },
+              "parentCategory": {
+                "type": "string"
+              },
+              "categoryDescription": {
+                "type": "string"
+              },
+              "ParentCategoryFilter": {
+                "type": "string"
+              },
               "published_at": {
                 "type": "string"
               },
@@ -711,6 +810,21 @@
                 "type": "string"
               }
             }
+          },
+          "LeftParent": {
+            "type": "boolean",
+            "default": false
+          },
+          "RightParent": {
+            "type": "boolean",
+            "default": false
+          },
+          "Parent": {
+            "type": "string",
+            "enum": [
+              "DV",
+              "Tropic"
+            ]
           },
           "published_at": {
             "type": "string",
@@ -720,20 +834,45 @@
       },
       "NewCategories": {
         "required": [
-          "title"
+          "title",
+          "Parent"
         ],
         "properties": {
           "title": {
             "type": "string"
           },
           "subcategories": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "parentCategory": {
             "type": "string"
           },
           "articles": {
-            "type": "string"
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
           },
           "description": {
             "type": "string"
+          },
+          "LeftParent": {
+            "type": "boolean",
+            "default": false
+          },
+          "RightParent": {
+            "type": "boolean",
+            "default": false
+          },
+          "Parent": {
+            "type": "string",
+            "enum": [
+              "DV",
+              "Tropic"
+            ]
           },
           "published_at": {
             "type": "string",

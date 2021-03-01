@@ -1,0 +1,43 @@
+[{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  },
+  "name": "Super Admin",
+  "code": "strapi-super-admin",
+  "description": "Super Admins can access and manage all features and settings.",
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.189Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.189Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d02f"
+  },
+  "name": "Editor",
+  "code": "strapi-editor",
+  "description": "Editors can manage and publish contents including those of other users.",
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.219Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.219Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d030"
+  },
+  "name": "Author",
+  "code": "strapi-author",
+  "description": "Authors can manage the content they have created.",
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.234Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.234Z"
+  },
+  "__v": 0
+}]

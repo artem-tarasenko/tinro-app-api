@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "isActive": true,
+  "blocked": false,
+  "roles": [
+    {
+      "$oid": "5fcf759ca81fac474830d02e"
+    }
+  ],
+  "username": null,
+  "registrationToken": null,
+  "email": "artem.t.88@ya.ru",
+  "password": "$2a$10$CQ3gYq6AaDvPulx2ouvL5uZTdMA4edVs6Qc6kZYLwvJj0RBG4o8xC",
+  "firstname": "Артем",
+  "lastname": "Тарасенко",
+  "__v": 0
+}]

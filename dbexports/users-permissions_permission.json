@@ -1,0 +1,2367 @@
+[{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cf9e"
+  },
+  "type": "content-manager",
+  "controller": "components",
+  "action": "findcomponent",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cf9f"
+  },
+  "type": "content-manager",
+  "controller": "components",
+  "action": "findcomponent",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfa0"
+  },
+  "type": "content-manager",
+  "controller": "components",
+  "action": "listcomponents",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfa1"
+  },
+  "type": "content-manager",
+  "controller": "components",
+  "action": "listcomponents",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfa2"
+  },
+  "type": "content-manager",
+  "controller": "components",
+  "action": "updatecomponent",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfa3"
+  },
+  "type": "content-manager",
+  "controller": "components",
+  "action": "updatecomponent",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfa4"
+  },
+  "type": "content-manager",
+  "controller": "contentmanager",
+  "action": "checkuidavailability",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfa5"
+  },
+  "type": "content-manager",
+  "controller": "contentmanager",
+  "action": "checkuidavailability",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfa6"
+  },
+  "type": "content-manager",
+  "controller": "contentmanager",
+  "action": "count",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfa7"
+  },
+  "type": "content-manager",
+  "controller": "contentmanager",
+  "action": "count",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfa8"
+  },
+  "type": "content-manager",
+  "controller": "contentmanager",
+  "action": "create",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfa9"
+  },
+  "type": "content-manager",
+  "controller": "contentmanager",
+  "action": "create",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfaa"
+  },
+  "type": "content-manager",
+  "controller": "contentmanager",
+  "action": "delete",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfab"
+  },
+  "type": "content-manager",
+  "controller": "contentmanager",
+  "action": "delete",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfac"
+  },
+  "type": "content-manager",
+  "controller": "contentmanager",
+  "action": "deletemany",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfad"
+  },
+  "type": "content-manager",
+  "controller": "contentmanager",
+  "action": "deletemany",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfae"
+  },
+  "type": "content-manager",
+  "controller": "contentmanager",
+  "action": "find",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfaf"
+  },
+  "type": "content-manager",
+  "controller": "contentmanager",
+  "action": "find",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfb0"
+  },
+  "type": "content-manager",
+  "controller": "contentmanager",
+  "action": "findone",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfb1"
+  },
+  "type": "content-manager",
+  "controller": "contentmanager",
+  "action": "findone",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfb2"
+  },
+  "type": "content-manager",
+  "controller": "contentmanager",
+  "action": "findrelationlist",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfb3"
+  },
+  "type": "content-manager",
+  "controller": "contentmanager",
+  "action": "findrelationlist",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfb4"
+  },
+  "type": "content-manager",
+  "controller": "contentmanager",
+  "action": "generateuid",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfb5"
+  },
+  "type": "content-manager",
+  "controller": "contentmanager",
+  "action": "generateuid",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfb6"
+  },
+  "type": "content-manager",
+  "controller": "contentmanager",
+  "action": "publish",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfb7"
+  },
+  "type": "content-manager",
+  "controller": "contentmanager",
+  "action": "publish",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfb8"
+  },
+  "type": "content-manager",
+  "controller": "contentmanager",
+  "action": "unpublish",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfb9"
+  },
+  "type": "content-manager",
+  "controller": "contentmanager",
+  "action": "unpublish",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfba"
+  },
+  "type": "content-manager",
+  "controller": "contentmanager",
+  "action": "update",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfbb"
+  },
+  "type": "content-manager",
+  "controller": "contentmanager",
+  "action": "update",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfbc"
+  },
+  "type": "content-manager",
+  "controller": "contenttypes",
+  "action": "findcontenttype",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfbd"
+  },
+  "type": "content-manager",
+  "controller": "contenttypes",
+  "action": "findcontenttype",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfbe"
+  },
+  "type": "content-manager",
+  "controller": "contenttypes",
+  "action": "listcontenttypes",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfbf"
+  },
+  "type": "content-manager",
+  "controller": "contenttypes",
+  "action": "listcontenttypes",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfc0"
+  },
+  "type": "content-manager",
+  "controller": "contenttypes",
+  "action": "updatecontenttype",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfc1"
+  },
+  "type": "content-manager",
+  "controller": "contenttypes",
+  "action": "updatecontenttype",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfc2"
+  },
+  "type": "content-type-builder",
+  "controller": "builder",
+  "action": "getreservednames",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfc3"
+  },
+  "type": "content-type-builder",
+  "controller": "builder",
+  "action": "getreservednames",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfc4"
+  },
+  "type": "content-type-builder",
+  "controller": "componentcategories",
+  "action": "deletecategory",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfc5"
+  },
+  "type": "content-type-builder",
+  "controller": "componentcategories",
+  "action": "deletecategory",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfc6"
+  },
+  "type": "content-type-builder",
+  "controller": "componentcategories",
+  "action": "editcategory",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfc7"
+  },
+  "type": "content-type-builder",
+  "controller": "componentcategories",
+  "action": "editcategory",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfc8"
+  },
+  "type": "content-type-builder",
+  "controller": "components",
+  "action": "createcomponent",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfc9"
+  },
+  "type": "content-type-builder",
+  "controller": "components",
+  "action": "createcomponent",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfca"
+  },
+  "type": "content-type-builder",
+  "controller": "components",
+  "action": "deletecomponent",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfcb"
+  },
+  "type": "content-type-builder",
+  "controller": "components",
+  "action": "deletecomponent",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfcc"
+  },
+  "type": "content-type-builder",
+  "controller": "components",
+  "action": "getcomponent",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfcd"
+  },
+  "type": "content-type-builder",
+  "controller": "components",
+  "action": "getcomponent",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfce"
+  },
+  "type": "content-type-builder",
+  "controller": "components",
+  "action": "getcomponents",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfcf"
+  },
+  "type": "content-type-builder",
+  "controller": "components",
+  "action": "getcomponents",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfd0"
+  },
+  "type": "content-type-builder",
+  "controller": "components",
+  "action": "updatecomponent",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfd1"
+  },
+  "type": "content-type-builder",
+  "controller": "components",
+  "action": "updatecomponent",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfd2"
+  },
+  "type": "content-type-builder",
+  "controller": "connections",
+  "action": "getconnections",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfd3"
+  },
+  "type": "content-type-builder",
+  "controller": "connections",
+  "action": "getconnections",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfd4"
+  },
+  "type": "content-type-builder",
+  "controller": "contenttypes",
+  "action": "createcontenttype",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfd5"
+  },
+  "type": "content-type-builder",
+  "controller": "contenttypes",
+  "action": "createcontenttype",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfd6"
+  },
+  "type": "content-type-builder",
+  "controller": "contenttypes",
+  "action": "deletecontenttype",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfd7"
+  },
+  "type": "content-type-builder",
+  "controller": "contenttypes",
+  "action": "deletecontenttype",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfd8"
+  },
+  "type": "content-type-builder",
+  "controller": "contenttypes",
+  "action": "getcontenttype",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfd9"
+  },
+  "type": "content-type-builder",
+  "controller": "contenttypes",
+  "action": "getcontenttype",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfda"
+  },
+  "type": "content-type-builder",
+  "controller": "contenttypes",
+  "action": "getcontenttypes",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfdb"
+  },
+  "type": "content-type-builder",
+  "controller": "contenttypes",
+  "action": "getcontenttypes",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfdc"
+  },
+  "type": "content-type-builder",
+  "controller": "contenttypes",
+  "action": "updatecontenttype",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfdd"
+  },
+  "type": "content-type-builder",
+  "controller": "contenttypes",
+  "action": "updatecontenttype",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfde"
+  },
+  "type": "email",
+  "controller": "email",
+  "action": "send",
+  "enabled": false,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfdf"
+  },
+  "type": "email",
+  "controller": "email",
+  "action": "send",
+  "enabled": false,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfe0"
+  },
+  "type": "upload",
+  "controller": "upload",
+  "action": "count",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfe1"
+  },
+  "type": "upload",
+  "controller": "upload",
+  "action": "count",
+  "enabled": false,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfe2"
+  },
+  "type": "upload",
+  "controller": "upload",
+  "action": "destroy",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfe3"
+  },
+  "type": "upload",
+  "controller": "upload",
+  "action": "destroy",
+  "enabled": false,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfe4"
+  },
+  "type": "upload",
+  "controller": "upload",
+  "action": "find",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfe5"
+  },
+  "type": "upload",
+  "controller": "upload",
+  "action": "find",
+  "enabled": false,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfe6"
+  },
+  "type": "upload",
+  "controller": "upload",
+  "action": "findone",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfe7"
+  },
+  "type": "upload",
+  "controller": "upload",
+  "action": "findone",
+  "enabled": false,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfe8"
+  },
+  "type": "upload",
+  "controller": "upload",
+  "action": "getsettings",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfe9"
+  },
+  "type": "upload",
+  "controller": "upload",
+  "action": "getsettings",
+  "enabled": false,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfea"
+  },
+  "type": "upload",
+  "controller": "upload",
+  "action": "search",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfeb"
+  },
+  "type": "upload",
+  "controller": "upload",
+  "action": "search",
+  "enabled": false,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfec"
+  },
+  "type": "upload",
+  "controller": "upload",
+  "action": "updatesettings",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfed"
+  },
+  "type": "upload",
+  "controller": "upload",
+  "action": "updatesettings",
+  "enabled": false,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfee"
+  },
+  "type": "upload",
+  "controller": "upload",
+  "action": "upload",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfef"
+  },
+  "type": "upload",
+  "controller": "upload",
+  "action": "upload",
+  "enabled": false,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cff0"
+  },
+  "type": "users-permissions",
+  "controller": "auth",
+  "action": "callback",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cff1"
+  },
+  "type": "users-permissions",
+  "controller": "auth",
+  "action": "callback",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cff2"
+  },
+  "type": "users-permissions",
+  "controller": "auth",
+  "action": "connect",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cff3"
+  },
+  "type": "users-permissions",
+  "controller": "auth",
+  "action": "connect",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cff4"
+  },
+  "type": "users-permissions",
+  "controller": "auth",
+  "action": "emailconfirmation",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cff5"
+  },
+  "type": "users-permissions",
+  "controller": "auth",
+  "action": "emailconfirmation",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cff6"
+  },
+  "type": "users-permissions",
+  "controller": "auth",
+  "action": "forgotpassword",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cff7"
+  },
+  "type": "users-permissions",
+  "controller": "auth",
+  "action": "forgotpassword",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cff8"
+  },
+  "type": "users-permissions",
+  "controller": "auth",
+  "action": "register",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cff9"
+  },
+  "type": "users-permissions",
+  "controller": "auth",
+  "action": "register",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cffa"
+  },
+  "type": "users-permissions",
+  "controller": "auth",
+  "action": "resetpassword",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cffb"
+  },
+  "type": "users-permissions",
+  "controller": "auth",
+  "action": "resetpassword",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cffc"
+  },
+  "type": "users-permissions",
+  "controller": "auth",
+  "action": "sendemailconfirmation",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cffd"
+  },
+  "type": "users-permissions",
+  "controller": "auth",
+  "action": "sendemailconfirmation",
+  "enabled": false,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cffe"
+  },
+  "type": "users-permissions",
+  "controller": "user",
+  "action": "count",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830cfff"
+  },
+  "type": "users-permissions",
+  "controller": "user",
+  "action": "count",
+  "enabled": false,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830d000"
+  },
+  "type": "users-permissions",
+  "controller": "user",
+  "action": "create",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830d001"
+  },
+  "type": "users-permissions",
+  "controller": "user",
+  "action": "create",
+  "enabled": false,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830d002"
+  },
+  "type": "users-permissions",
+  "controller": "user",
+  "action": "destroy",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830d003"
+  },
+  "type": "users-permissions",
+  "controller": "user",
+  "action": "destroy",
+  "enabled": false,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830d004"
+  },
+  "type": "users-permissions",
+  "controller": "user",
+  "action": "destroyall",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830d005"
+  },
+  "type": "users-permissions",
+  "controller": "user",
+  "action": "destroyall",
+  "enabled": false,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830d006"
+  },
+  "type": "users-permissions",
+  "controller": "user",
+  "action": "find",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830d007"
+  },
+  "type": "users-permissions",
+  "controller": "user",
+  "action": "find",
+  "enabled": false,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830d008"
+  },
+  "type": "users-permissions",
+  "controller": "user",
+  "action": "findone",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830d009"
+  },
+  "type": "users-permissions",
+  "controller": "user",
+  "action": "findone",
+  "enabled": false,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830d00a"
+  },
+  "type": "users-permissions",
+  "controller": "user",
+  "action": "me",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830d00b"
+  },
+  "type": "users-permissions",
+  "controller": "user",
+  "action": "me",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830d00c"
+  },
+  "type": "users-permissions",
+  "controller": "user",
+  "action": "update",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830d00d"
+  },
+  "type": "users-permissions",
+  "controller": "user",
+  "action": "update",
+  "enabled": false,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830d00e"
+  },
+  "type": "users-permissions",
+  "controller": "userspermissions",
+  "action": "createrole",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830d00f"
+  },
+  "type": "users-permissions",
+  "controller": "userspermissions",
+  "action": "createrole",
+  "enabled": false,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830d010"
+  },
+  "type": "users-permissions",
+  "controller": "userspermissions",
+  "action": "deleterole",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830d011"
+  },
+  "type": "users-permissions",
+  "controller": "userspermissions",
+  "action": "deleterole",
+  "enabled": false,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830d012"
+  },
+  "type": "users-permissions",
+  "controller": "userspermissions",
+  "action": "getadvancedsettings",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830d013"
+  },
+  "type": "users-permissions",
+  "controller": "userspermissions",
+  "action": "getadvancedsettings",
+  "enabled": false,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830d014"
+  },
+  "type": "users-permissions",
+  "controller": "userspermissions",
+  "action": "getemailtemplate",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830d015"
+  },
+  "type": "users-permissions",
+  "controller": "userspermissions",
+  "action": "getemailtemplate",
+  "enabled": false,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830d016"
+  },
+  "type": "users-permissions",
+  "controller": "userspermissions",
+  "action": "getpermissions",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830d017"
+  },
+  "type": "users-permissions",
+  "controller": "userspermissions",
+  "action": "getpermissions",
+  "enabled": false,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830d018"
+  },
+  "type": "users-permissions",
+  "controller": "userspermissions",
+  "action": "getpolicies",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830d019"
+  },
+  "type": "users-permissions",
+  "controller": "userspermissions",
+  "action": "getpolicies",
+  "enabled": false,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830d01a"
+  },
+  "type": "users-permissions",
+  "controller": "userspermissions",
+  "action": "getproviders",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830d01b"
+  },
+  "type": "users-permissions",
+  "controller": "userspermissions",
+  "action": "getproviders",
+  "enabled": false,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830d01c"
+  },
+  "type": "users-permissions",
+  "controller": "userspermissions",
+  "action": "getrole",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830d01d"
+  },
+  "type": "users-permissions",
+  "controller": "userspermissions",
+  "action": "getrole",
+  "enabled": false,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830d01e"
+  },
+  "type": "users-permissions",
+  "controller": "userspermissions",
+  "action": "getroles",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830d01f"
+  },
+  "type": "users-permissions",
+  "controller": "userspermissions",
+  "action": "getroles",
+  "enabled": false,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830d020"
+  },
+  "type": "users-permissions",
+  "controller": "userspermissions",
+  "action": "getroutes",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830d021"
+  },
+  "type": "users-permissions",
+  "controller": "userspermissions",
+  "action": "getroutes",
+  "enabled": false,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830d022"
+  },
+  "type": "users-permissions",
+  "controller": "userspermissions",
+  "action": "index",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830d023"
+  },
+  "type": "users-permissions",
+  "controller": "userspermissions",
+  "action": "index",
+  "enabled": false,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830d024"
+  },
+  "type": "users-permissions",
+  "controller": "userspermissions",
+  "action": "searchusers",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830d025"
+  },
+  "type": "users-permissions",
+  "controller": "userspermissions",
+  "action": "searchusers",
+  "enabled": false,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830d026"
+  },
+  "type": "users-permissions",
+  "controller": "userspermissions",
+  "action": "updateadvancedsettings",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830d027"
+  },
+  "type": "users-permissions",
+  "controller": "userspermissions",
+  "action": "updateadvancedsettings",
+  "enabled": false,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830d028"
+  },
+  "type": "users-permissions",
+  "controller": "userspermissions",
+  "action": "updateemailtemplate",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830d029"
+  },
+  "type": "users-permissions",
+  "controller": "userspermissions",
+  "action": "updateemailtemplate",
+  "enabled": false,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830d02a"
+  },
+  "type": "users-permissions",
+  "controller": "userspermissions",
+  "action": "updateproviders",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830d02b"
+  },
+  "type": "users-permissions",
+  "controller": "userspermissions",
+  "action": "updateproviders",
+  "enabled": false,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830d02c"
+  },
+  "type": "users-permissions",
+  "controller": "userspermissions",
+  "action": "updaterole",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759aa81fac474830d02d"
+  },
+  "type": "users-permissions",
+  "controller": "userspermissions",
+  "action": "updaterole",
+  "enabled": false,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf761807342e4320bcf0ce"
+  },
+  "type": "application",
+  "controller": "article",
+  "action": "count",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf761807342e4320bcf0cf"
+  },
+  "type": "application",
+  "controller": "article",
+  "action": "count",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf761807342e4320bcf0d0"
+  },
+  "type": "application",
+  "controller": "article",
+  "action": "create",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf761807342e4320bcf0d1"
+  },
+  "type": "application",
+  "controller": "article",
+  "action": "create",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf761807342e4320bcf0d2"
+  },
+  "type": "application",
+  "controller": "article",
+  "action": "delete",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf761807342e4320bcf0d3"
+  },
+  "type": "application",
+  "controller": "article",
+  "action": "delete",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf761807342e4320bcf0d4"
+  },
+  "type": "application",
+  "controller": "article",
+  "action": "find",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf761807342e4320bcf0d5"
+  },
+  "type": "application",
+  "controller": "article",
+  "action": "find",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf761807342e4320bcf0d6"
+  },
+  "type": "application",
+  "controller": "article",
+  "action": "findone",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf761807342e4320bcf0d7"
+  },
+  "type": "application",
+  "controller": "article",
+  "action": "findone",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf761807342e4320bcf0d8"
+  },
+  "type": "application",
+  "controller": "article",
+  "action": "update",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf761807342e4320bcf0d9"
+  },
+  "type": "application",
+  "controller": "article",
+  "action": "update",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf766acb47d83b983dc538"
+  },
+  "type": "application",
+  "controller": "categories",
+  "action": "count",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf766acb47d83b983dc539"
+  },
+  "type": "application",
+  "controller": "categories",
+  "action": "count",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf766acb47d83b983dc53a"
+  },
+  "type": "application",
+  "controller": "categories",
+  "action": "create",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf766acb47d83b983dc53b"
+  },
+  "type": "application",
+  "controller": "categories",
+  "action": "create",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf766acb47d83b983dc53c"
+  },
+  "type": "application",
+  "controller": "categories",
+  "action": "delete",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf766acb47d83b983dc53d"
+  },
+  "type": "application",
+  "controller": "categories",
+  "action": "delete",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf766acb47d83b983dc53e"
+  },
+  "type": "application",
+  "controller": "categories",
+  "action": "find",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf766acb47d83b983dc53f"
+  },
+  "type": "application",
+  "controller": "categories",
+  "action": "find",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf766acb47d83b983dc540"
+  },
+  "type": "application",
+  "controller": "categories",
+  "action": "findone",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf766acb47d83b983dc541"
+  },
+  "type": "application",
+  "controller": "categories",
+  "action": "findone",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf766acb47d83b983dc542"
+  },
+  "type": "application",
+  "controller": "categories",
+  "action": "update",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf766acb47d83b983dc543"
+  },
+  "type": "application",
+  "controller": "categories",
+  "action": "update",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fd0d1c8b9b72b769cffeb35"
+  },
+  "type": "documentation",
+  "controller": "documentation",
+  "action": "deletedoc",
+  "enabled": false,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fd0d1c8b9b72b769cffeb36"
+  },
+  "type": "documentation",
+  "controller": "documentation",
+  "action": "deletedoc",
+  "enabled": false,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fd0d1c8b9b72b769cffeb37"
+  },
+  "type": "documentation",
+  "controller": "documentation",
+  "action": "getinfos",
+  "enabled": false,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fd0d1c8b9b72b769cffeb38"
+  },
+  "type": "documentation",
+  "controller": "documentation",
+  "action": "getinfos",
+  "enabled": false,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fd0d1c8b9b72b769cffeb39"
+  },
+  "type": "documentation",
+  "controller": "documentation",
+  "action": "index",
+  "enabled": true,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fd0d1c8b9b72b769cffeb3a"
+  },
+  "type": "documentation",
+  "controller": "documentation",
+  "action": "index",
+  "enabled": false,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fd0d1c8b9b72b769cffeb3b"
+  },
+  "type": "documentation",
+  "controller": "documentation",
+  "action": "login",
+  "enabled": false,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fd0d1c8b9b72b769cffeb3c"
+  },
+  "type": "documentation",
+  "controller": "documentation",
+  "action": "login",
+  "enabled": false,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fd0d1c8b9b72b769cffeb3d"
+  },
+  "type": "documentation",
+  "controller": "documentation",
+  "action": "loginview",
+  "enabled": false,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fd0d1c8b9b72b769cffeb3e"
+  },
+  "type": "documentation",
+  "controller": "documentation",
+  "action": "loginview",
+  "enabled": false,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fd0d1c8b9b72b769cffeb3f"
+  },
+  "type": "documentation",
+  "controller": "documentation",
+  "action": "regeneratedoc",
+  "enabled": false,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fd0d1c8b9b72b769cffeb40"
+  },
+  "type": "documentation",
+  "controller": "documentation",
+  "action": "regeneratedoc",
+  "enabled": false,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+},{
+  "_id": {
+    "$oid": "5fd0d1c8b9b72b769cffeb41"
+  },
+  "type": "documentation",
+  "controller": "documentation",
+  "action": "updatesettings",
+  "enabled": false,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9c"
+  }
+},{
+  "_id": {
+    "$oid": "5fd0d1c8b9b72b769cffeb42"
+  },
+  "type": "documentation",
+  "controller": "documentation",
+  "action": "updatesettings",
+  "enabled": false,
+  "policy": "",
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759aa81fac474830cf9d"
+  }
+}]

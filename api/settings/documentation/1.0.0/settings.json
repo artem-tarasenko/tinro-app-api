@@ -1,18 +1,18 @@
 {
   "paths": {
-    "/articles": {
+    "/settings": {
       "get": {
         "deprecated": false,
-        "description": "",
+        "description": "Find all the settings's records",
         "responses": {
           "200": {
-            "description": "response",
+            "description": "Retrieve settings document(s)",
             "content": {
               "application/json": {
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Article"
+                    "$ref": "#/components/schemas/Settings"
                   }
                 }
               }
@@ -51,7 +51,7 @@
         },
         "summary": "",
         "tags": [
-          "Article"
+          "Settings"
         ],
         "parameters": [
           {
@@ -194,14 +194,14 @@
       },
       "post": {
         "deprecated": false,
-        "description": "Create a new record",
+        "description": "Create a new settings record",
         "responses": {
           "200": {
-            "description": "response",
+            "description": "Retrieve settings document(s)",
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Article"
+                  "$ref": "#/components/schemas/Settings"
                 }
               }
             }
@@ -239,7 +239,7 @@
         },
         "summary": "",
         "tags": [
-          "Article"
+          "Settings"
         ],
         "requestBody": {
           "description": "",
@@ -247,20 +247,20 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/NewArticle"
+                "$ref": "#/components/schemas/NewSettings"
               }
             }
           }
         }
       }
     },
-    "/articles/count": {
+    "/settings/count": {
       "get": {
         "deprecated": false,
-        "description": "",
+        "description": "Retrieve the numver of settings documents",
         "responses": {
           "200": {
-            "description": "response",
+            "description": "Retrieve settings document(s)",
             "content": {
               "application/json": {
                 "schema": {
@@ -306,22 +306,22 @@
         },
         "summary": "",
         "tags": [
-          "Article"
+          "Settings"
         ],
         "parameters": []
       }
     },
-    "/articles/{id}": {
+    "/settings/{id}": {
       "get": {
         "deprecated": false,
-        "description": "",
+        "description": "Find one settings record",
         "responses": {
           "200": {
-            "description": "response",
+            "description": "Retrieve settings document(s)",
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Article"
+                  "$ref": "#/components/schemas/Settings"
                 }
               }
             }
@@ -359,7 +359,7 @@
         },
         "summary": "",
         "tags": [
-          "Article"
+          "Settings"
         ],
         "parameters": [
           {
@@ -376,14 +376,14 @@
       },
       "put": {
         "deprecated": false,
-        "description": "Update a record",
+        "description": "Update a single settings record",
         "responses": {
           "200": {
-            "description": "response",
+            "description": "Retrieve settings document(s)",
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Article"
+                  "$ref": "#/components/schemas/Settings"
                 }
               }
             }
@@ -421,7 +421,7 @@
         },
         "summary": "",
         "tags": [
-          "Article"
+          "Settings"
         ],
         "requestBody": {
           "description": "",
@@ -429,7 +429,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/NewArticle"
+                "$ref": "#/components/schemas/NewSettings"
               }
             }
           }
@@ -449,10 +449,10 @@
       },
       "delete": {
         "deprecated": false,
-        "description": "Delete a record",
+        "description": "Delete a single settings record",
         "responses": {
           "200": {
-            "description": "deletes a single record based on the ID supplied",
+            "description": "deletes a single settings based on the ID supplied",
             "content": {
               "application/json": {
                 "schema": {
@@ -495,7 +495,7 @@
         },
         "summary": "",
         "tags": [
-          "Article"
+          "Settings"
         ],
         "parameters": [
           {
@@ -514,278 +514,16 @@
   },
   "components": {
     "schemas": {
-      "Article": {
+      "Settings": {
         "required": [
-          "id",
-          "title"
+          "id"
         ],
         "properties": {
           "id": {
             "type": "string"
           },
-          "title": {
-            "type": "string"
-          },
-          "subtitle": {
-            "type": "string",
-            "default": "latin"
-          },
-          "content": {
-            "type": "string"
-          },
-          "number": {
-            "type": "string"
-          },
-          "gallery": {
-            "type": "array",
-            "items": {
-              "required": [
-                "id",
-                "name",
-                "hash",
-                "mime",
-                "size",
-                "url",
-                "provider"
-              ],
-              "properties": {
-                "id": {
-                  "type": "string"
-                },
-                "name": {
-                  "type": "string"
-                },
-                "alternativeText": {
-                  "type": "string"
-                },
-                "caption": {
-                  "type": "string"
-                },
-                "width": {
-                  "type": "integer"
-                },
-                "height": {
-                  "type": "integer"
-                },
-                "formats": {
-                  "type": "object"
-                },
-                "hash": {
-                  "type": "string"
-                },
-                "ext": {
-                  "type": "string"
-                },
-                "mime": {
-                  "type": "string"
-                },
-                "size": {
-                  "type": "number"
-                },
-                "url": {
-                  "type": "string"
-                },
-                "previewUrl": {
-                  "type": "string"
-                },
-                "provider": {
-                  "type": "string"
-                },
-                "provider_metadata": {
-                  "type": "object"
-                },
-                "related": {
-                  "type": "string"
-                },
-                "created_by": {
-                  "type": "string"
-                },
-                "updated_by": {
-                  "type": "string"
-                }
-              }
-            }
-          },
-          "cover": {
-            "required": [
-              "id",
-              "name",
-              "hash",
-              "mime",
-              "size",
-              "url",
-              "provider"
-            ],
-            "properties": {
-              "id": {
-                "type": "string"
-              },
-              "name": {
-                "type": "string"
-              },
-              "alternativeText": {
-                "type": "string"
-              },
-              "caption": {
-                "type": "string"
-              },
-              "width": {
-                "type": "integer"
-              },
-              "height": {
-                "type": "integer"
-              },
-              "formats": {
-                "type": "object"
-              },
-              "hash": {
-                "type": "string"
-              },
-              "ext": {
-                "type": "string"
-              },
-              "mime": {
-                "type": "string"
-              },
-              "size": {
-                "type": "number"
-              },
-              "url": {
-                "type": "string"
-              },
-              "previewUrl": {
-                "type": "string"
-              },
-              "provider": {
-                "type": "string"
-              },
-              "provider_metadata": {
-                "type": "object"
-              },
-              "related": {
-                "type": "string"
-              },
-              "created_by": {
-                "type": "string"
-              },
-              "updated_by": {
-                "type": "string"
-              }
-            }
-          },
-          "parentCategory": {
-            "required": [
-              "id",
-              "title",
-              "cover",
-              "Parent"
-            ],
-            "properties": {
-              "id": {
-                "type": "string"
-              },
-              "title": {
-                "type": "string"
-              },
-              "cover": {
-                "type": "string"
-              },
-              "subcategories": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "parentCategory": {
-                "type": "string"
-              },
-              "articles": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "description": {
-                "type": "string"
-              },
-              "LeftParent": {
-                "type": "boolean"
-              },
-              "RightParent": {
-                "type": "boolean"
-              },
-              "Parent": {
-                "type": "string"
-              },
-              "published_at": {
-                "type": "string"
-              },
-              "created_by": {
-                "type": "string"
-              },
-              "updated_by": {
-                "type": "string"
-              }
-            }
-          },
-          "categoryDescription": {
-            "required": [
-              "id",
-              "title",
-              "cover",
-              "Parent"
-            ],
-            "properties": {
-              "id": {
-                "type": "string"
-              },
-              "title": {
-                "type": "string"
-              },
-              "cover": {
-                "type": "string"
-              },
-              "subcategories": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "parentCategory": {
-                "type": "string"
-              },
-              "articles": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "description": {
-                "type": "string"
-              },
-              "LeftParent": {
-                "type": "boolean"
-              },
-              "RightParent": {
-                "type": "boolean"
-              },
-              "Parent": {
-                "type": "string"
-              },
-              "published_at": {
-                "type": "string"
-              },
-              "created_by": {
-                "type": "string"
-              },
-              "updated_by": {
-                "type": "string"
-              }
-            }
-          },
-          "ParentCategoryFilter": {
-            "type": "string",
-            "default": "Рыбы"
+          "Search": {
+            "type": "boolean"
           },
           "published_at": {
             "type": "string",
@@ -793,33 +531,10 @@
           }
         }
       },
-      "NewArticle": {
-        "required": [
-          "title"
-        ],
+      "NewSettings": {
         "properties": {
-          "title": {
-            "type": "string"
-          },
-          "subtitle": {
-            "type": "string",
-            "default": "latin"
-          },
-          "content": {
-            "type": "string"
-          },
-          "number": {
-            "type": "string"
-          },
-          "parentCategory": {
-            "type": "string"
-          },
-          "categoryDescription": {
-            "type": "string"
-          },
-          "ParentCategoryFilter": {
-            "type": "string",
-            "default": "Рыбы"
+          "Search": {
+            "type": "boolean"
           },
           "published_at": {
             "type": "string",
@@ -837,7 +552,7 @@
   },
   "tags": [
     {
-      "name": "Article"
+      "name": "Settings"
     }
   ]
 }

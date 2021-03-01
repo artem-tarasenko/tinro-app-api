@@ -1,0 +1,3423 @@
+[{
+  "_id": {
+    "$oid": "5fd0deb7246cf87eb4cac47b"
+  },
+  "name": "item.jpg",
+  "alternativeText": "",
+  "caption": "Caption 2",
+  "hash": "item_db7a05d9f2",
+  "ext": ".jpg",
+  "mime": "image/jpeg",
+  "size": 243.11,
+  "width": 1600,
+  "height": 1207,
+  "url": "/uploads/item_db7a05d9f2.jpg",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_item.jpg",
+      "hash": "thumbnail_item_db7a05d9f2",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 207,
+      "height": 156,
+      "size": 8.62,
+      "path": null,
+      "url": "/uploads/thumbnail_item_db7a05d9f2.jpg"
+    },
+    "large": {
+      "name": "large_item.jpg",
+      "hash": "large_item_db7a05d9f2",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 1000,
+      "height": 754,
+      "size": 120.24,
+      "path": null,
+      "url": "/uploads/large_item_db7a05d9f2.jpg"
+    },
+    "medium": {
+      "name": "medium_item.jpg",
+      "hash": "medium_item_db7a05d9f2",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 750,
+      "height": 566,
+      "size": 73.67,
+      "path": null,
+      "url": "/uploads/medium_item_db7a05d9f2.jpg"
+    },
+    "small": {
+      "name": "small_item.jpg",
+      "hash": "small_item_db7a05d9f2",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 500,
+      "height": 377,
+      "size": 38.54,
+      "path": null,
+      "url": "/uploads/small_item_db7a05d9f2.jpg"
+    }
+  },
+  "provider": "local",
+  "related": [
+    {
+      "_id": {
+        "$oid": "5fd200608aaba30194693a6d"
+      },
+      "ref": {
+        "$oid": "5fd200608aaba30194693a6c"
+      },
+      "kind": "Article",
+      "field": "gallery"
+    },
+    {
+      "_id": {
+        "$oid": "5fd34eb0ee28b26618a2354c"
+      },
+      "ref": {
+        "$oid": "5fd200608aaba30194693a6c"
+      },
+      "kind": "Article",
+      "field": "cover"
+    },
+    {
+      "_id": {
+        "$oid": "5fd34ec8ee28b26618a2354f"
+      },
+      "ref": {
+        "$oid": "5fd200b28aaba30194693a72"
+      },
+      "kind": "Article",
+      "field": "cover"
+    },
+    {
+      "_id": {
+        "$oid": "5fd5e50b0fa0851fc823ec41"
+      },
+      "ref": {
+        "$oid": "5fd200b28aaba30194693a72"
+      },
+      "kind": "Article",
+      "field": "gallery"
+    },
+    {
+      "_id": {
+        "$oid": "5fd61bba0fa0851fc823ec4c"
+      },
+      "ref": {
+        "$oid": "5fd200788aaba30194693a6e"
+      },
+      "kind": "Article",
+      "field": "gallery"
+    }
+  ],
+  "createdAt": {
+    "$date": "2020-12-09T14:27:03.056Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-19T14:23:49.673Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  }
+},{
+  "_id": {
+    "$oid": "5fd0e08f0789a677dccc9879"
+  },
+  "name": "lionfish-tropical-venomous-reef-preview.jpg",
+  "alternativeText": "",
+  "caption": "Caption 5",
+  "hash": "lionfish_tropical_venomous_reef_preview_412e17fdf0",
+  "ext": ".jpg",
+  "mime": "image/jpeg",
+  "size": 76.11,
+  "width": 728,
+  "height": 546,
+  "url": "/uploads/lionfish_tropical_venomous_reef_preview_412e17fdf0.jpg",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_lionfish-tropical-venomous-reef-preview.jpg",
+      "hash": "thumbnail_lionfish_tropical_venomous_reef_preview_412e17fdf0",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 208,
+      "height": 156,
+      "size": 8.94,
+      "path": null,
+      "url": "/uploads/thumbnail_lionfish_tropical_venomous_reef_preview_412e17fdf0.jpg"
+    },
+    "small": {
+      "name": "small_lionfish-tropical-venomous-reef-preview.jpg",
+      "hash": "small_lionfish_tropical_venomous_reef_preview_412e17fdf0",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 500,
+      "height": 375,
+      "size": 39.79,
+      "path": null,
+      "url": "/uploads/small_lionfish_tropical_venomous_reef_preview_412e17fdf0.jpg"
+    }
+  },
+  "provider": "local",
+  "related": [
+    {
+      "_id": {
+        "$oid": "5fd200788aaba30194693a6f"
+      },
+      "ref": {
+        "$oid": "5fd200788aaba30194693a6e"
+      },
+      "kind": "Article",
+      "field": "gallery"
+    },
+    {
+      "_id": {
+        "$oid": "5fd2009a8aaba30194693a71"
+      },
+      "ref": {
+        "$oid": "5fd2009a8aaba30194693a70"
+      },
+      "kind": "Article",
+      "field": "gallery"
+    },
+    {
+      "_id": {
+        "$oid": "5fd34539ee28b26618a23544"
+      },
+      "ref": {
+        "$oid": "5fcf7716cb47d83b983dc549"
+      },
+      "kind": "Article",
+      "field": "gallery"
+    },
+    {
+      "_id": {
+        "$oid": "5fd34eb8ee28b26618a2354d"
+      },
+      "ref": {
+        "$oid": "5fd200788aaba30194693a6e"
+      },
+      "kind": "Article",
+      "field": "cover"
+    },
+    {
+      "_id": {
+        "$oid": "5fd5e50b0fa0851fc823ec40"
+      },
+      "ref": {
+        "$oid": "5fd200b28aaba30194693a72"
+      },
+      "kind": "Article",
+      "field": "gallery"
+    }
+  ],
+  "createdAt": {
+    "$date": "2020-12-09T14:34:55.706Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-19T14:23:49.673Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  }
+},{
+  "_id": {
+    "$oid": "5fd0e0b50789a677dccc987e"
+  },
+  "name": "category.jpg",
+  "alternativeText": "",
+  "caption": "Caption 1",
+  "hash": "category_470b29a4d6",
+  "ext": ".jpg",
+  "mime": "image/jpeg",
+  "size": 293.69,
+  "width": 1680,
+  "height": 1050,
+  "url": "/uploads/category_470b29a4d6.jpg",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_category.jpg",
+      "hash": "thumbnail_category_470b29a4d6",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 245,
+      "height": 153,
+      "size": 11.62,
+      "path": null,
+      "url": "/uploads/thumbnail_category_470b29a4d6.jpg"
+    },
+    "large": {
+      "name": "large_category.jpg",
+      "hash": "large_category_470b29a4d6",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 1000,
+      "height": 625,
+      "size": 130.25,
+      "path": null,
+      "url": "/uploads/large_category_470b29a4d6.jpg"
+    },
+    "medium": {
+      "name": "medium_category.jpg",
+      "hash": "medium_category_470b29a4d6",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 750,
+      "height": 469,
+      "size": 78.54,
+      "path": null,
+      "url": "/uploads/medium_category_470b29a4d6.jpg"
+    },
+    "small": {
+      "name": "small_category.jpg",
+      "hash": "small_category_470b29a4d6",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 500,
+      "height": 313,
+      "size": 40.41,
+      "path": null,
+      "url": "/uploads/small_category_470b29a4d6.jpg"
+    }
+  },
+  "provider": "local",
+  "related": [
+    {
+      "_id": {
+        "$oid": "5fd0e0b80789a677dccc987f"
+      },
+      "ref": {
+        "$oid": "5fd0dd1d5b05e98144ee3328"
+      },
+      "kind": "Categories",
+      "field": "cover"
+    },
+    {
+      "_id": {
+        "$oid": "5fd0e0bf0789a677dccc9880"
+      },
+      "ref": {
+        "$oid": "5fd0dd0f5b05e98144ee3327"
+      },
+      "kind": "Categories",
+      "field": "cover"
+    },
+    {
+      "_id": {
+        "$oid": "5fd1ff878aaba30194693a6a"
+      },
+      "ref": {
+        "$oid": "5fcf7716cb47d83b983dc549"
+      },
+      "kind": "Article",
+      "field": "gallery"
+    },
+    {
+      "_id": {
+        "$oid": "5fd200b28aaba30194693a73"
+      },
+      "ref": {
+        "$oid": "5fd200b28aaba30194693a72"
+      },
+      "kind": "Article",
+      "field": "gallery"
+    },
+    {
+      "_id": {
+        "$oid": "5fd345bcee28b26618a23545"
+      },
+      "ref": {
+        "$oid": "5fd0e0740789a677dccc9877"
+      },
+      "kind": "Categories",
+      "field": "cover"
+    },
+    {
+      "_id": {
+        "$oid": "5fd345c6ee28b26618a23546"
+      },
+      "ref": {
+        "$oid": "5fd0e0920789a677dccc987a"
+      },
+      "kind": "Categories",
+      "field": "cover"
+    },
+    {
+      "_id": {
+        "$oid": "5fd345cfee28b26618a23547"
+      },
+      "ref": {
+        "$oid": "5fd0dd025b05e98144ee3326"
+      },
+      "kind": "Categories",
+      "field": "cover"
+    },
+    {
+      "_id": {
+        "$oid": "5fd345e0ee28b26618a23549"
+      },
+      "ref": {
+        "$oid": "5fd0dd295b05e98144ee3329"
+      },
+      "kind": "Categories",
+      "field": "cover"
+    },
+    {
+      "_id": {
+        "$oid": "5fd345ebee28b26618a2354a"
+      },
+      "ref": {
+        "$oid": "5fd0dce85b05e98144ee3325"
+      },
+      "kind": "Categories",
+      "field": "cover"
+    },
+    {
+      "_id": {
+        "$oid": "5fd61bba0fa0851fc823ec4e"
+      },
+      "ref": {
+        "$oid": "5fd200788aaba30194693a6e"
+      },
+      "kind": "Article",
+      "field": "gallery"
+    }
+  ],
+  "createdAt": {
+    "$date": "2020-12-09T14:35:33.179Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-19T14:23:49.673Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  }
+},{
+  "_id": {
+    "$oid": "5fd24187b0c85479442106de"
+  },
+  "name": "1bidfXGZKWs.jpg",
+  "alternativeText": "",
+  "caption": "Caption 4",
+  "hash": "1bidf_XGZK_Ws_e5af6358af",
+  "ext": ".jpg",
+  "mime": "image/jpeg",
+  "size": 76.67,
+  "width": 604,
+  "height": 453,
+  "url": "/uploads/1bidf_XGZK_Ws_e5af6358af.jpg",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_1bidfXGZKWs.jpg",
+      "hash": "thumbnail_1bidf_XGZK_Ws_e5af6358af",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 208,
+      "height": 156,
+      "size": 8.74,
+      "path": null,
+      "url": "/uploads/thumbnail_1bidf_XGZK_Ws_e5af6358af.jpg"
+    },
+    "small": {
+      "name": "small_1bidfXGZKWs.jpg",
+      "hash": "small_1bidf_XGZK_Ws_e5af6358af",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 500,
+      "height": 375,
+      "size": 51.65,
+      "path": null,
+      "url": "/uploads/small_1bidf_XGZK_Ws_e5af6358af.jpg"
+    }
+  },
+  "provider": "local",
+  "related": [
+    {
+      "_id": {
+        "$oid": "5fd34ebfee28b26618a2354e"
+      },
+      "ref": {
+        "$oid": "5fd2009a8aaba30194693a70"
+      },
+      "kind": "Article",
+      "field": "cover"
+    },
+    {
+      "_id": {
+        "$oid": "5fd5e50b0fa0851fc823ec43"
+      },
+      "ref": {
+        "$oid": "5fd200b28aaba30194693a72"
+      },
+      "kind": "Article",
+      "field": "gallery"
+    },
+    {
+      "_id": {
+        "$oid": "5fd61b850fa0851fc823ec44"
+      },
+      "ref": {
+        "$oid": "5fd2009a8aaba30194693a70"
+      },
+      "kind": "Article",
+      "field": "gallery"
+    },
+    {
+      "_id": {
+        "$oid": "5fd61bba0fa0851fc823ec4a"
+      },
+      "ref": {
+        "$oid": "5fd200788aaba30194693a6e"
+      },
+      "kind": "Article",
+      "field": "gallery"
+    }
+  ],
+  "createdAt": {
+    "$date": "2020-12-10T15:40:55.813Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-19T14:23:49.673Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  }
+},{
+  "_id": {
+    "$oid": "5fd241fab0c85479442106e0"
+  },
+  "name": "d9add31285d57c4bf01bf5cf77ce563c.jpg",
+  "alternativeText": "",
+  "caption": "Caption 3",
+  "hash": "d9add31285d57c4bf01bf5cf77ce563c_d1b9dcbb89",
+  "ext": ".jpg",
+  "mime": "image/jpeg",
+  "size": 158.23,
+  "width": 940,
+  "height": 627,
+  "url": "/uploads/d9add31285d57c4bf01bf5cf77ce563c_d1b9dcbb89.jpg",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_d9add31285d57c4bf01bf5cf77ce563c.jpg",
+      "hash": "thumbnail_d9add31285d57c4bf01bf5cf77ce563c_d1b9dcbb89",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 234,
+      "height": 156,
+      "size": 11.15,
+      "path": null,
+      "url": "/uploads/thumbnail_d9add31285d57c4bf01bf5cf77ce563c_d1b9dcbb89.jpg"
+    },
+    "medium": {
+      "name": "medium_d9add31285d57c4bf01bf5cf77ce563c.jpg",
+      "hash": "medium_d9add31285d57c4bf01bf5cf77ce563c_d1b9dcbb89",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 750,
+      "height": 500,
+      "size": 97.51,
+      "path": null,
+      "url": "/uploads/medium_d9add31285d57c4bf01bf5cf77ce563c_d1b9dcbb89.jpg"
+    },
+    "small": {
+      "name": "small_d9add31285d57c4bf01bf5cf77ce563c.jpg",
+      "hash": "small_d9add31285d57c4bf01bf5cf77ce563c_d1b9dcbb89",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 500,
+      "height": 334,
+      "size": 44.13,
+      "path": null,
+      "url": "/uploads/small_d9add31285d57c4bf01bf5cf77ce563c_d1b9dcbb89.jpg"
+    }
+  },
+  "provider": "local",
+  "related": [
+    {
+      "_id": {
+        "$oid": "5fd241feb0c85479442106e1"
+      },
+      "ref": {
+        "$oid": "5fcf7716cb47d83b983dc549"
+      },
+      "kind": "Article",
+      "field": "cover"
+    },
+    {
+      "_id": {
+        "$oid": "5fd34539ee28b26618a23543"
+      },
+      "ref": {
+        "$oid": "5fcf7716cb47d83b983dc549"
+      },
+      "kind": "Article",
+      "field": "gallery"
+    },
+    {
+      "_id": {
+        "$oid": "5fd5e50b0fa0851fc823ec42"
+      },
+      "ref": {
+        "$oid": "5fd200b28aaba30194693a72"
+      },
+      "kind": "Article",
+      "field": "gallery"
+    },
+    {
+      "_id": {
+        "$oid": "5fd61b850fa0851fc823ec45"
+      },
+      "ref": {
+        "$oid": "5fd2009a8aaba30194693a70"
+      },
+      "kind": "Article",
+      "field": "gallery"
+    },
+    {
+      "_id": {
+        "$oid": "5fd61bba0fa0851fc823ec4b"
+      },
+      "ref": {
+        "$oid": "5fd200788aaba30194693a6e"
+      },
+      "kind": "Article",
+      "field": "gallery"
+    }
+  ],
+  "createdAt": {
+    "$date": "2020-12-10T15:42:50.892Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-19T14:23:49.673Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  }
+},{
+  "_id": {
+    "$oid": "5fd42df4f458ca08dcb60e87"
+  },
+  "name": "Relax Video.mp4",
+  "alternativeText": "",
+  "caption": "",
+  "hash": "Relax_Video_4c8e32ba0e",
+  "ext": ".mp4",
+  "mime": "video/mp4",
+  "size": 21588.26,
+  "url": "/uploads/Relax_Video_4c8e32ba0e.mp4",
+  "provider": "local",
+  "width": null,
+  "height": null,
+  "related": [
+    {
+      "_id": {
+        "$oid": "5fd5e50b0fa0851fc823ec3f"
+      },
+      "ref": {
+        "$oid": "5fd200b28aaba30194693a72"
+      },
+      "kind": "Article",
+      "field": "gallery"
+    },
+    {
+      "_id": {
+        "$oid": "5fd61bba0fa0851fc823ec4d"
+      },
+      "ref": {
+        "$oid": "5fd200788aaba30194693a6e"
+      },
+      "kind": "Article",
+      "field": "gallery"
+    }
+  ],
+  "createdAt": {
+    "$date": "2020-12-12T02:41:56.481Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-19T14:23:49.673Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  }
+},{
+  "_id": {
+    "$oid": "5fd5da400fa0851fc823ec3c"
+  },
+  "name": "video-thumb.jpg",
+  "alternativeText": "",
+  "caption": "",
+  "hash": "video_thumb_2130e846b4",
+  "ext": ".jpg",
+  "mime": "image/jpeg",
+  "size": 5.32,
+  "width": 250,
+  "height": 165,
+  "url": "/uploads/video_thumb_2130e846b4.jpg",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_video-thumb.jpg",
+      "hash": "thumbnail_video_thumb_2130e846b4",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 236,
+      "height": 156,
+      "size": 4.85,
+      "path": null,
+      "url": "/uploads/thumbnail_video_thumb_2130e846b4.jpg"
+    }
+  },
+  "provider": "local",
+  "related": [],
+  "createdAt": {
+    "$date": "2020-12-13T09:09:20.026Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-13T09:09:20.032Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  }
+},{
+  "_id": {
+    "$oid": "5fd5dbb00fa0851fc823ec3e"
+  },
+  "name": "video-cover.jpg",
+  "alternativeText": "",
+  "caption": "",
+  "hash": "video_cover_99577ae76e",
+  "ext": ".jpg",
+  "mime": "image/jpeg",
+  "size": 57.08,
+  "width": 1283,
+  "height": 721,
+  "url": "/uploads/video_cover_99577ae76e.jpg",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_video-cover.jpg",
+      "hash": "thumbnail_video_cover_99577ae76e",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 245,
+      "height": 138,
+      "size": 3.61,
+      "path": null,
+      "url": "/uploads/thumbnail_video_cover_99577ae76e.jpg"
+    },
+    "large": {
+      "name": "large_video-cover.jpg",
+      "hash": "large_video_cover_99577ae76e",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 1000,
+      "height": 562,
+      "size": 37.08,
+      "path": null,
+      "url": "/uploads/large_video_cover_99577ae76e.jpg"
+    },
+    "medium": {
+      "name": "medium_video-cover.jpg",
+      "hash": "medium_video_cover_99577ae76e",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 750,
+      "height": 421,
+      "size": 23.26,
+      "path": null,
+      "url": "/uploads/medium_video_cover_99577ae76e.jpg"
+    },
+    "small": {
+      "name": "small_video-cover.jpg",
+      "hash": "small_video_cover_99577ae76e",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 500,
+      "height": 281,
+      "size": 11.29,
+      "path": null,
+      "url": "/uploads/small_video_cover_99577ae76e.jpg"
+    }
+  },
+  "provider": "local",
+  "related": [],
+  "createdAt": {
+    "$date": "2020-12-13T09:15:28.712Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-13T09:15:28.719Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  }
+},{
+  "_id": {
+    "$oid": "5fd61bb10fa0851fc823ec46"
+  },
+  "name": "581813.jpg",
+  "alternativeText": "",
+  "caption": "",
+  "hash": "581813_widescreen_under_water_background_1920x1080_pc_b8ecb8631b",
+  "ext": ".jpg",
+  "mime": "image/jpeg",
+  "size": 115.4,
+  "width": 1920,
+  "height": 1080,
+  "url": "/uploads/581813_widescreen_under_water_background_1920x1080_pc_b8ecb8631b.jpg",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_581813-widescreen-under-water-background-1920x1080-pc.jpg",
+      "hash": "thumbnail_581813_widescreen_under_water_background_1920x1080_pc_b8ecb8631b",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 245,
+      "height": 138,
+      "size": 4.64,
+      "path": null,
+      "url": "/uploads/thumbnail_581813_widescreen_under_water_background_1920x1080_pc_b8ecb8631b.jpg"
+    },
+    "large": {
+      "name": "large_581813-widescreen-under-water-background-1920x1080-pc.jpg",
+      "hash": "large_581813_widescreen_under_water_background_1920x1080_pc_b8ecb8631b",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 1000,
+      "height": 563,
+      "size": 44.16,
+      "path": null,
+      "url": "/uploads/large_581813_widescreen_under_water_background_1920x1080_pc_b8ecb8631b.jpg"
+    },
+    "medium": {
+      "name": "medium_581813-widescreen-under-water-background-1920x1080-pc.jpg",
+      "hash": "medium_581813_widescreen_under_water_background_1920x1080_pc_b8ecb8631b",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 750,
+      "height": 422,
+      "size": 27.69,
+      "path": null,
+      "url": "/uploads/medium_581813_widescreen_under_water_background_1920x1080_pc_b8ecb8631b.jpg"
+    },
+    "small": {
+      "name": "small_581813-widescreen-under-water-background-1920x1080-pc.jpg",
+      "hash": "small_581813_widescreen_under_water_background_1920x1080_pc_b8ecb8631b",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 500,
+      "height": 281,
+      "size": 14.71,
+      "path": null,
+      "url": "/uploads/small_581813_widescreen_under_water_background_1920x1080_pc_b8ecb8631b.jpg"
+    }
+  },
+  "provider": "local",
+  "related": [
+    {
+      "_id": {
+        "$oid": "5fd61bba0fa0851fc823ec4f"
+      },
+      "ref": {
+        "$oid": "5fd200788aaba30194693a6e"
+      },
+      "kind": "Article",
+      "field": "gallery"
+    }
+  ],
+  "createdAt": {
+    "$date": "2020-12-13T13:48:33.410Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-13T13:52:17.624Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  }
+},{
+  "_id": {
+    "$oid": "5fd61bb10fa0851fc823ec47"
+  },
+  "name": "sunlight.jpg",
+  "alternativeText": "",
+  "caption": "",
+  "hash": "sunlight_sea_water_sky_blue_underwater_horizon_atmosphere_cloud_ocean_wave_wind_wave_95918_a77aae0ebb",
+  "ext": ".jpg",
+  "mime": "image/jpeg",
+  "size": 256.85,
+  "width": 1920,
+  "height": 1200,
+  "url": "/uploads/sunlight_sea_water_sky_blue_underwater_horizon_atmosphere_cloud_ocean_wave_wind_wave_95918_a77aae0ebb.jpg",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_sunlight-sea-water-sky-blue-underwater-horizon-atmosphere-cloud-ocean-wave-wind-wave-95918.jpg",
+      "hash": "thumbnail_sunlight_sea_water_sky_blue_underwater_horizon_atmosphere_cloud_ocean_wave_wind_wave_95918_a77aae0ebb",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 245,
+      "height": 153,
+      "size": 6.25,
+      "path": null,
+      "url": "/uploads/thumbnail_sunlight_sea_water_sky_blue_underwater_horizon_atmosphere_cloud_ocean_wave_wind_wave_95918_a77aae0ebb.jpg"
+    },
+    "large": {
+      "name": "large_sunlight-sea-water-sky-blue-underwater-horizon-atmosphere-cloud-ocean-wave-wind-wave-95918.jpg",
+      "hash": "large_sunlight_sea_water_sky_blue_underwater_horizon_atmosphere_cloud_ocean_wave_wind_wave_95918_a77aae0ebb",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 1000,
+      "height": 625,
+      "size": 76.24,
+      "path": null,
+      "url": "/uploads/large_sunlight_sea_water_sky_blue_underwater_horizon_atmosphere_cloud_ocean_wave_wind_wave_95918_a77aae0ebb.jpg"
+    },
+    "medium": {
+      "name": "medium_sunlight-sea-water-sky-blue-underwater-horizon-atmosphere-cloud-ocean-wave-wind-wave-95918.jpg",
+      "hash": "medium_sunlight_sea_water_sky_blue_underwater_horizon_atmosphere_cloud_ocean_wave_wind_wave_95918_a77aae0ebb",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 750,
+      "height": 469,
+      "size": 43.63,
+      "path": null,
+      "url": "/uploads/medium_sunlight_sea_water_sky_blue_underwater_horizon_atmosphere_cloud_ocean_wave_wind_wave_95918_a77aae0ebb.jpg"
+    },
+    "small": {
+      "name": "small_sunlight-sea-water-sky-blue-underwater-horizon-atmosphere-cloud-ocean-wave-wind-wave-95918.jpg",
+      "hash": "small_sunlight_sea_water_sky_blue_underwater_horizon_atmosphere_cloud_ocean_wave_wind_wave_95918_a77aae0ebb",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 500,
+      "height": 313,
+      "size": 21.24,
+      "path": null,
+      "url": "/uploads/small_sunlight_sea_water_sky_blue_underwater_horizon_atmosphere_cloud_ocean_wave_wind_wave_95918_a77aae0ebb.jpg"
+    }
+  },
+  "provider": "local",
+  "related": [
+    {
+      "_id": {
+        "$oid": "5fd61bba0fa0851fc823ec50"
+      },
+      "ref": {
+        "$oid": "5fd200788aaba30194693a6e"
+      },
+      "kind": "Article",
+      "field": "gallery"
+    }
+  ],
+  "createdAt": {
+    "$date": "2020-12-13T13:48:33.452Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-13T13:52:33.923Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  }
+},{
+  "_id": {
+    "$oid": "5fd61bb10fa0851fc823ec48"
+  },
+  "name": "maxresdefault_live.jpg",
+  "alternativeText": "",
+  "caption": "",
+  "hash": "maxresdefault_live_5118c05a0b",
+  "ext": ".jpg",
+  "mime": "image/jpeg",
+  "size": 77.66,
+  "width": 1280,
+  "height": 720,
+  "url": "/uploads/maxresdefault_live_5118c05a0b.jpg",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_maxresdefault_live.jpg",
+      "hash": "thumbnail_maxresdefault_live_5118c05a0b",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 245,
+      "height": 138,
+      "size": 6.39,
+      "path": null,
+      "url": "/uploads/thumbnail_maxresdefault_live_5118c05a0b.jpg"
+    },
+    "large": {
+      "name": "large_maxresdefault_live.jpg",
+      "hash": "large_maxresdefault_live_5118c05a0b",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 1000,
+      "height": 563,
+      "size": 53.43,
+      "path": null,
+      "url": "/uploads/large_maxresdefault_live_5118c05a0b.jpg"
+    },
+    "medium": {
+      "name": "medium_maxresdefault_live.jpg",
+      "hash": "medium_maxresdefault_live_5118c05a0b",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 750,
+      "height": 422,
+      "size": 34.51,
+      "path": null,
+      "url": "/uploads/medium_maxresdefault_live_5118c05a0b.jpg"
+    },
+    "small": {
+      "name": "small_maxresdefault_live.jpg",
+      "hash": "small_maxresdefault_live_5118c05a0b",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 500,
+      "height": 281,
+      "size": 18.82,
+      "path": null,
+      "url": "/uploads/small_maxresdefault_live_5118c05a0b.jpg"
+    }
+  },
+  "provider": "local",
+  "related": [
+    {
+      "_id": {
+        "$oid": "5fd61bba0fa0851fc823ec51"
+      },
+      "ref": {
+        "$oid": "5fd200788aaba30194693a6e"
+      },
+      "kind": "Article",
+      "field": "gallery"
+    }
+  ],
+  "createdAt": {
+    "$date": "2020-12-13T13:48:33.478Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-13T13:48:42.304Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  }
+},{
+  "_id": {
+    "$oid": "5fde00fdc5bdb72584a0fedc"
+  },
+  "name": "тропические моллюски.png",
+  "alternativeText": "",
+  "caption": "",
+  "hash": "tropicheskie_mollyuski_5b1dde2e47",
+  "ext": ".png",
+  "mime": "image/png",
+  "size": 2340.88,
+  "width": 1170,
+  "height": 772,
+  "url": "/uploads/tropicheskie_mollyuski_5b1dde2e47.png",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_тропические моллюски.png",
+      "hash": "thumbnail_tropicheskie_mollyuski_5b1dde2e47",
+      "ext": ".png",
+      "mime": "image/png",
+      "width": 236,
+      "height": 156,
+      "size": 109.04,
+      "path": null,
+      "url": "/uploads/thumbnail_tropicheskie_mollyuski_5b1dde2e47.png"
+    },
+    "large": {
+      "name": "large_тропические моллюски.png",
+      "hash": "large_tropicheskie_mollyuski_5b1dde2e47",
+      "ext": ".png",
+      "mime": "image/png",
+      "width": 1000,
+      "height": 660,
+      "size": 1840.65,
+      "path": null,
+      "url": "/uploads/large_tropicheskie_mollyuski_5b1dde2e47.png"
+    },
+    "medium": {
+      "name": "medium_тропические моллюски.png",
+      "hash": "medium_tropicheskie_mollyuski_5b1dde2e47",
+      "ext": ".png",
+      "mime": "image/png",
+      "width": 750,
+      "height": 495,
+      "size": 1060.45,
+      "path": null,
+      "url": "/uploads/medium_tropicheskie_mollyuski_5b1dde2e47.png"
+    },
+    "small": {
+      "name": "small_тропические моллюски.png",
+      "hash": "small_tropicheskie_mollyuski_5b1dde2e47",
+      "ext": ".png",
+      "mime": "image/png",
+      "width": 500,
+      "height": 330,
+      "size": 479.37,
+      "path": null,
+      "url": "/uploads/small_tropicheskie_mollyuski_5b1dde2e47.png"
+    }
+  },
+  "provider": "local",
+  "related": [
+    {
+      "_id": {
+        "$oid": "5fde0108c5bdb72584a0fedd"
+      },
+      "ref": {
+        "$oid": "5fd0dd335b05e98144ee332a"
+      },
+      "kind": "Categories",
+      "field": "cover"
+    }
+  ],
+  "createdAt": {
+    "$date": "2020-12-19T13:32:45.953Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-19T13:32:56.727Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  }
+},{
+  "_id": {
+    "$oid": "5fde039ac5bdb72584a0fede"
+  },
+  "name": "Acaliptophis peronni.jpg",
+  "alternativeText": "",
+  "caption": "",
+  "hash": "Acaliptophis_peronni_3fd34c251b",
+  "ext": ".jpg",
+  "mime": "image/jpeg",
+  "size": 64.24,
+  "width": 800,
+  "height": 534,
+  "url": "/uploads/Acaliptophis_peronni_3fd34c251b.jpg",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_Acaliptophis peronni.jpg",
+      "hash": "thumbnail_Acaliptophis_peronni_3fd34c251b",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 234,
+      "height": 156,
+      "size": 10.66,
+      "path": null,
+      "url": "/uploads/thumbnail_Acaliptophis_peronni_3fd34c251b.jpg"
+    },
+    "medium": {
+      "name": "medium_Acaliptophis peronni.jpg",
+      "hash": "medium_Acaliptophis_peronni_3fd34c251b",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 750,
+      "height": 501,
+      "size": 61.85,
+      "path": null,
+      "url": "/uploads/medium_Acaliptophis_peronni_3fd34c251b.jpg"
+    },
+    "small": {
+      "name": "small_Acaliptophis peronni.jpg",
+      "hash": "small_Acaliptophis_peronni_3fd34c251b",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 500,
+      "height": 334,
+      "size": 34.63,
+      "path": null,
+      "url": "/uploads/small_Acaliptophis_peronni_3fd34c251b.jpg"
+    }
+  },
+  "provider": "local",
+  "related": [
+    {
+      "_id": {
+        "$oid": "5fde0437c5bdb72584a0fee0"
+      },
+      "ref": {
+        "$oid": "5fde0437c5bdb72584a0fedf"
+      },
+      "kind": "Article",
+      "field": "cover"
+    }
+  ],
+  "createdAt": {
+    "$date": "2020-12-19T13:43:54.903Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-19T13:46:31.771Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  }
+},{
+  "_id": {
+    "$oid": "5fde0500c5bdb72584a0fee1"
+  },
+  "name": "Aipusurus foliosquama.jpg",
+  "alternativeText": "",
+  "caption": "",
+  "hash": "Aipusurus_foliosquama_efd348d0a9",
+  "ext": ".jpg",
+  "mime": "image/jpeg",
+  "size": 197.85,
+  "width": 1024,
+  "height": 768,
+  "url": "/uploads/Aipusurus_foliosquama_efd348d0a9.jpg",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_Aipusurus foliosquama.jpg",
+      "hash": "thumbnail_Aipusurus_foliosquama_efd348d0a9",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 208,
+      "height": 156,
+      "size": 16.28,
+      "path": null,
+      "url": "/uploads/thumbnail_Aipusurus_foliosquama_efd348d0a9.jpg"
+    },
+    "large": {
+      "name": "large_Aipusurus foliosquama.jpg",
+      "hash": "large_Aipusurus_foliosquama_efd348d0a9",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 1000,
+      "height": 750,
+      "size": 221.67,
+      "path": null,
+      "url": "/uploads/large_Aipusurus_foliosquama_efd348d0a9.jpg"
+    },
+    "medium": {
+      "name": "medium_Aipusurus foliosquama.jpg",
+      "hash": "medium_Aipusurus_foliosquama_efd348d0a9",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 750,
+      "height": 563,
+      "size": 148.63,
+      "path": null,
+      "url": "/uploads/medium_Aipusurus_foliosquama_efd348d0a9.jpg"
+    },
+    "small": {
+      "name": "small_Aipusurus foliosquama.jpg",
+      "hash": "small_Aipusurus_foliosquama_efd348d0a9",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 500,
+      "height": 375,
+      "size": 79.33,
+      "path": null,
+      "url": "/uploads/small_Aipusurus_foliosquama_efd348d0a9.jpg"
+    }
+  },
+  "provider": "local",
+  "related": [
+    {
+      "_id": {
+        "$oid": "5fde05d526c2502a949de404"
+      },
+      "ref": {
+        "$oid": "5fde05d526c2502a949de403"
+      },
+      "kind": "Article",
+      "field": "cover"
+    }
+  ],
+  "createdAt": {
+    "$date": "2020-12-19T13:49:52.370Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-19T13:53:25.927Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  }
+},{
+  "_id": {
+    "$oid": "5fde063026c2502a949de405"
+  },
+  "name": "Chitulia-inornata.jpg",
+  "alternativeText": "",
+  "caption": "",
+  "hash": "Chitulia_inornata_17e26ca4fa",
+  "ext": ".jpg",
+  "mime": "image/jpeg",
+  "size": 93.68,
+  "width": 820,
+  "height": 635,
+  "url": "/uploads/Chitulia_inornata_17e26ca4fa.jpg",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_Chitulia-inornata.jpg",
+      "hash": "thumbnail_Chitulia_inornata_17e26ca4fa",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 201,
+      "height": 156,
+      "size": 7.69,
+      "path": null,
+      "url": "/uploads/thumbnail_Chitulia_inornata_17e26ca4fa.jpg"
+    },
+    "medium": {
+      "name": "medium_Chitulia-inornata.jpg",
+      "hash": "medium_Chitulia_inornata_17e26ca4fa",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 750,
+      "height": 581,
+      "size": 80.88,
+      "path": null,
+      "url": "/uploads/medium_Chitulia_inornata_17e26ca4fa.jpg"
+    },
+    "small": {
+      "name": "small_Chitulia-inornata.jpg",
+      "hash": "small_Chitulia_inornata_17e26ca4fa",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 500,
+      "height": 387,
+      "size": 41.14,
+      "path": null,
+      "url": "/uploads/small_Chitulia_inornata_17e26ca4fa.jpg"
+    }
+  },
+  "provider": "local",
+  "related": [],
+  "createdAt": {
+    "$date": "2020-12-19T13:54:56.875Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-19T13:54:56.890Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  }
+},{
+  "_id": {
+    "$oid": "5fde0a0811fce1250488ed61"
+  },
+  "name": "Disteira kingie.jpg",
+  "alternativeText": "",
+  "caption": "",
+  "hash": "Disteira_kingie_bece02cd98",
+  "ext": ".jpg",
+  "mime": "image/jpeg",
+  "size": 284.89,
+  "width": 1200,
+  "height": 835,
+  "url": "/uploads/Disteira_kingie_bece02cd98.jpg",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_Disteira kingie.jpg",
+      "hash": "thumbnail_Disteira_kingie_bece02cd98",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 224,
+      "height": 156,
+      "size": 10.08,
+      "path": null,
+      "url": "/uploads/thumbnail_Disteira_kingie_bece02cd98.jpg"
+    },
+    "large": {
+      "name": "large_Disteira kingie.jpg",
+      "hash": "large_Disteira_kingie_bece02cd98",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 1000,
+      "height": 696,
+      "size": 188.91,
+      "path": null,
+      "url": "/uploads/large_Disteira_kingie_bece02cd98.jpg"
+    },
+    "medium": {
+      "name": "medium_Disteira kingie.jpg",
+      "hash": "medium_Disteira_kingie_bece02cd98",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 750,
+      "height": 522,
+      "size": 101.38,
+      "path": null,
+      "url": "/uploads/medium_Disteira_kingie_bece02cd98.jpg"
+    },
+    "small": {
+      "name": "small_Disteira kingie.jpg",
+      "hash": "small_Disteira_kingie_bece02cd98",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 500,
+      "height": 348,
+      "size": 44.92,
+      "path": null,
+      "url": "/uploads/small_Disteira_kingie_bece02cd98.jpg"
+    }
+  },
+  "provider": "local",
+  "related": [
+    {
+      "_id": {
+        "$oid": "5fde0a2811fce1250488ed63"
+      },
+      "ref": {
+        "$oid": "5fde0a2811fce1250488ed62"
+      },
+      "kind": "Article",
+      "field": "cover"
+    }
+  ],
+  "createdAt": {
+    "$date": "2020-12-19T14:11:20.315Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-19T14:11:52.937Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  }
+},{
+  "_id": {
+    "$oid": "5fde0a5311fce1250488ed64"
+  },
+  "name": "Hydrophis brookii.png",
+  "alternativeText": "",
+  "caption": "",
+  "hash": "Hydrophis_brookii_4309472a57",
+  "ext": ".png",
+  "mime": "image/png",
+  "size": 1957.39,
+  "width": 979,
+  "height": 734,
+  "url": "/uploads/Hydrophis_brookii_4309472a57.png",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_Hydrophis brookii.png",
+      "hash": "thumbnail_Hydrophis_brookii_4309472a57",
+      "ext": ".png",
+      "mime": "image/png",
+      "width": 208,
+      "height": 156,
+      "size": 86.17,
+      "path": null,
+      "url": "/uploads/thumbnail_Hydrophis_brookii_4309472a57.png"
+    },
+    "medium": {
+      "name": "medium_Hydrophis brookii.png",
+      "hash": "medium_Hydrophis_brookii_4309472a57",
+      "ext": ".png",
+      "mime": "image/png",
+      "width": 750,
+      "height": 562,
+      "size": 1148.42,
+      "path": null,
+      "url": "/uploads/medium_Hydrophis_brookii_4309472a57.png"
+    },
+    "small": {
+      "name": "small_Hydrophis brookii.png",
+      "hash": "small_Hydrophis_brookii_4309472a57",
+      "ext": ".png",
+      "mime": "image/png",
+      "width": 500,
+      "height": 375,
+      "size": 507.58,
+      "path": null,
+      "url": "/uploads/small_Hydrophis_brookii_4309472a57.png"
+    }
+  },
+  "provider": "local",
+  "related": [
+    {
+      "_id": {
+        "$oid": "5fde0aa211fce1250488ed66"
+      },
+      "ref": {
+        "$oid": "5fde0aa211fce1250488ed65"
+      },
+      "kind": "Article",
+      "field": "cover"
+    }
+  ],
+  "createdAt": {
+    "$date": "2020-12-19T14:12:35.312Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-19T14:13:54.051Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  }
+},{
+  "_id": {
+    "$oid": "5fde0abe11fce1250488ed67"
+  },
+  "name": "Hydrophis gracilis  .jpg",
+  "alternativeText": "",
+  "caption": "",
+  "hash": "Hydrophis_gracilis_abd000816e",
+  "ext": ".jpg",
+  "mime": "image/jpeg",
+  "size": 219.27,
+  "width": 930,
+  "height": 660,
+  "url": "/uploads/Hydrophis_gracilis_abd000816e.jpg",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_Hydrophis gracilis  .jpg",
+      "hash": "thumbnail_Hydrophis_gracilis_abd000816e",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 220,
+      "height": 156,
+      "size": 13.46,
+      "path": null,
+      "url": "/uploads/thumbnail_Hydrophis_gracilis_abd000816e.jpg"
+    },
+    "medium": {
+      "name": "medium_Hydrophis gracilis  .jpg",
+      "hash": "medium_Hydrophis_gracilis_abd000816e",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 750,
+      "height": 532,
+      "size": 151.36,
+      "path": null,
+      "url": "/uploads/medium_Hydrophis_gracilis_abd000816e.jpg"
+    },
+    "small": {
+      "name": "small_Hydrophis gracilis  .jpg",
+      "hash": "small_Hydrophis_gracilis_abd000816e",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 500,
+      "height": 355,
+      "size": 73.7,
+      "path": null,
+      "url": "/uploads/small_Hydrophis_gracilis_abd000816e.jpg"
+    }
+  },
+  "provider": "local",
+  "related": [
+    {
+      "_id": {
+        "$oid": "5fde0acb11fce1250488ed69"
+      },
+      "ref": {
+        "$oid": "5fde0acb11fce1250488ed68"
+      },
+      "kind": "Article",
+      "field": "cover"
+    }
+  ],
+  "createdAt": {
+    "$date": "2020-12-19T14:14:22.403Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-19T14:14:35.188Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  }
+},{
+  "_id": {
+    "$oid": "5fde0aef11fce1250488ed6a"
+  },
+  "name": "Hydrophis macdowelli.jpg",
+  "alternativeText": "",
+  "caption": "",
+  "hash": "Hydrophis_macdowelli_bc0026c9d5",
+  "ext": ".jpg",
+  "mime": "image/jpeg",
+  "size": 266.23,
+  "width": 1696,
+  "height": 1131,
+  "url": "/uploads/Hydrophis_macdowelli_bc0026c9d5.jpg",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_Hydrophis macdowelli.jpg",
+      "hash": "thumbnail_Hydrophis_macdowelli_bc0026c9d5",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 234,
+      "height": 156,
+      "size": 9.07,
+      "path": null,
+      "url": "/uploads/thumbnail_Hydrophis_macdowelli_bc0026c9d5.jpg"
+    },
+    "large": {
+      "name": "large_Hydrophis macdowelli.jpg",
+      "hash": "large_Hydrophis_macdowelli_bc0026c9d5",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 1000,
+      "height": 667,
+      "size": 113.5,
+      "path": null,
+      "url": "/uploads/large_Hydrophis_macdowelli_bc0026c9d5.jpg"
+    },
+    "medium": {
+      "name": "medium_Hydrophis macdowelli.jpg",
+      "hash": "medium_Hydrophis_macdowelli_bc0026c9d5",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 750,
+      "height": 500,
+      "size": 68.06,
+      "path": null,
+      "url": "/uploads/medium_Hydrophis_macdowelli_bc0026c9d5.jpg"
+    },
+    "small": {
+      "name": "small_Hydrophis macdowelli.jpg",
+      "hash": "small_Hydrophis_macdowelli_bc0026c9d5",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 500,
+      "height": 333,
+      "size": 34.49,
+      "path": null,
+      "url": "/uploads/small_Hydrophis_macdowelli_bc0026c9d5.jpg"
+    }
+  },
+  "provider": "local",
+  "related": [
+    {
+      "_id": {
+        "$oid": "5fde0b0111fce1250488ed6c"
+      },
+      "ref": {
+        "$oid": "5fde0b0111fce1250488ed6b"
+      },
+      "kind": "Article",
+      "field": "cover"
+    }
+  ],
+  "createdAt": {
+    "$date": "2020-12-19T14:15:11.531Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-19T14:15:29.456Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  }
+},{
+  "_id": {
+    "$oid": "5fde0b1b11fce1250488ed6d"
+  },
+  "name": "Lapemis curtus.jpg",
+  "alternativeText": "",
+  "caption": "",
+  "hash": "Lapemis_curtus_8be2552152",
+  "ext": ".jpg",
+  "mime": "image/jpeg",
+  "size": 29.82,
+  "width": 800,
+  "height": 456,
+  "url": "/uploads/Lapemis_curtus_8be2552152.jpg",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_Lapemis curtus.jpg",
+      "hash": "thumbnail_Lapemis_curtus_8be2552152",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 245,
+      "height": 140,
+      "size": 4.68,
+      "path": null,
+      "url": "/uploads/thumbnail_Lapemis_curtus_8be2552152.jpg"
+    },
+    "medium": {
+      "name": "medium_Lapemis curtus.jpg",
+      "hash": "medium_Lapemis_curtus_8be2552152",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 750,
+      "height": 428,
+      "size": 26.41,
+      "path": null,
+      "url": "/uploads/medium_Lapemis_curtus_8be2552152.jpg"
+    },
+    "small": {
+      "name": "small_Lapemis curtus.jpg",
+      "hash": "small_Lapemis_curtus_8be2552152",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 500,
+      "height": 285,
+      "size": 14.02,
+      "path": null,
+      "url": "/uploads/small_Lapemis_curtus_8be2552152.jpg"
+    }
+  },
+  "provider": "local",
+  "related": [
+    {
+      "_id": {
+        "$oid": "5fde0b4811fce1250488ed6f"
+      },
+      "ref": {
+        "$oid": "5fde0b4811fce1250488ed6e"
+      },
+      "kind": "Article",
+      "field": "cover"
+    }
+  ],
+  "createdAt": {
+    "$date": "2020-12-19T14:15:55.043Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-19T14:16:40.087Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  }
+},{
+  "_id": {
+    "$oid": "5fde0b6611fce1250488ed70"
+  },
+  "name": "Leioselasma cyanocincta.jpg",
+  "alternativeText": "",
+  "caption": "",
+  "hash": "Leioselasma_cyanocincta_c32d24b093",
+  "ext": ".jpg",
+  "mime": "image/jpeg",
+  "size": 163.38,
+  "width": 1024,
+  "height": 671,
+  "url": "/uploads/Leioselasma_cyanocincta_c32d24b093.jpg",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_Leioselasma cyanocincta.jpg",
+      "hash": "thumbnail_Leioselasma_cyanocincta_c32d24b093",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 238,
+      "height": 156,
+      "size": 13.73,
+      "path": null,
+      "url": "/uploads/thumbnail_Leioselasma_cyanocincta_c32d24b093.jpg"
+    },
+    "large": {
+      "name": "large_Leioselasma cyanocincta.jpg",
+      "hash": "large_Leioselasma_cyanocincta_c32d24b093",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 1000,
+      "height": 655,
+      "size": 153.54,
+      "path": null,
+      "url": "/uploads/large_Leioselasma_cyanocincta_c32d24b093.jpg"
+    },
+    "medium": {
+      "name": "medium_Leioselasma cyanocincta.jpg",
+      "hash": "medium_Leioselasma_cyanocincta_c32d24b093",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 750,
+      "height": 491,
+      "size": 99.24,
+      "path": null,
+      "url": "/uploads/medium_Leioselasma_cyanocincta_c32d24b093.jpg"
+    },
+    "small": {
+      "name": "small_Leioselasma cyanocincta.jpg",
+      "hash": "small_Leioselasma_cyanocincta_c32d24b093",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 500,
+      "height": 328,
+      "size": 49.95,
+      "path": null,
+      "url": "/uploads/small_Leioselasma_cyanocincta_c32d24b093.jpg"
+    }
+  },
+  "provider": "local",
+  "related": [
+    {
+      "_id": {
+        "$oid": "5fde0b7911fce1250488ed72"
+      },
+      "ref": {
+        "$oid": "5fde0b7911fce1250488ed71"
+      },
+      "kind": "Article",
+      "field": "cover"
+    }
+  ],
+  "createdAt": {
+    "$date": "2020-12-19T14:17:10.761Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-19T14:17:29.057Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  }
+},{
+  "_id": {
+    "$oid": "5fde0b9611fce1250488ed73"
+  },
+  "name": "Leioselasma czeblukovi.jpg",
+  "alternativeText": "",
+  "caption": "",
+  "hash": "Leioselasma_czeblukovi_3ae6478c0e",
+  "ext": ".jpg",
+  "mime": "image/jpeg",
+  "size": 90.9,
+  "width": 560,
+  "height": 518,
+  "url": "/uploads/Leioselasma_czeblukovi_3ae6478c0e.jpg",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_Leioselasma czeblukovi.jpg",
+      "hash": "thumbnail_Leioselasma_czeblukovi_3ae6478c0e",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 169,
+      "height": 156,
+      "size": 10.88,
+      "path": null,
+      "url": "/uploads/thumbnail_Leioselasma_czeblukovi_3ae6478c0e.jpg"
+    },
+    "small": {
+      "name": "small_Leioselasma czeblukovi.jpg",
+      "hash": "small_Leioselasma_czeblukovi_3ae6478c0e",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 500,
+      "height": 462,
+      "size": 77.42,
+      "path": null,
+      "url": "/uploads/small_Leioselasma_czeblukovi_3ae6478c0e.jpg"
+    }
+  },
+  "provider": "local",
+  "related": [
+    {
+      "_id": {
+        "$oid": "5fde0ba711fce1250488ed75"
+      },
+      "ref": {
+        "$oid": "5fde0ba711fce1250488ed74"
+      },
+      "kind": "Article",
+      "field": "cover"
+    }
+  ],
+  "createdAt": {
+    "$date": "2020-12-19T14:17:58.530Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-19T14:18:15.656Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  }
+},{
+  "_id": {
+    "$oid": "5fde0bc611fce1250488ed76"
+  },
+  "name": "Leioselasma melanocephala.jpg",
+  "alternativeText": "",
+  "caption": "",
+  "hash": "Leioselasma_melanocephala_638f1b5d78",
+  "ext": ".jpg",
+  "mime": "image/jpeg",
+  "size": 449.78,
+  "width": 1200,
+  "height": 847,
+  "url": "/uploads/Leioselasma_melanocephala_638f1b5d78.jpg",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_Leioselasma melanocephala.jpg",
+      "hash": "thumbnail_Leioselasma_melanocephala_638f1b5d78",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 221,
+      "height": 156,
+      "size": 14.31,
+      "path": null,
+      "url": "/uploads/thumbnail_Leioselasma_melanocephala_638f1b5d78.jpg"
+    },
+    "large": {
+      "name": "large_Leioselasma melanocephala.jpg",
+      "hash": "large_Leioselasma_melanocephala_638f1b5d78",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 1000,
+      "height": 706,
+      "size": 305.91,
+      "path": null,
+      "url": "/uploads/large_Leioselasma_melanocephala_638f1b5d78.jpg"
+    },
+    "medium": {
+      "name": "medium_Leioselasma melanocephala.jpg",
+      "hash": "medium_Leioselasma_melanocephala_638f1b5d78",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 750,
+      "height": 529,
+      "size": 172.26,
+      "path": null,
+      "url": "/uploads/medium_Leioselasma_melanocephala_638f1b5d78.jpg"
+    },
+    "small": {
+      "name": "small_Leioselasma melanocephala.jpg",
+      "hash": "small_Leioselasma_melanocephala_638f1b5d78",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 500,
+      "height": 353,
+      "size": 74.17,
+      "path": null,
+      "url": "/uploads/small_Leioselasma_melanocephala_638f1b5d78.jpg"
+    }
+  },
+  "provider": "local",
+  "related": [
+    {
+      "_id": {
+        "$oid": "5fde0bd911fce1250488ed78"
+      },
+      "ref": {
+        "$oid": "5fde0bd911fce1250488ed77"
+      },
+      "kind": "Article",
+      "field": "cover"
+    }
+  ],
+  "createdAt": {
+    "$date": "2020-12-19T14:18:46.267Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-19T14:19:05.445Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  }
+},{
+  "_id": {
+    "$oid": "5fde0c0111fce1250488ed79"
+  },
+  "name": "Pelamis platurus.jpg",
+  "alternativeText": "",
+  "caption": "",
+  "hash": "Pelamis_platurus_e4383b5b57",
+  "ext": ".jpg",
+  "mime": "image/jpeg",
+  "size": 479.89,
+  "width": 2048,
+  "height": 1355,
+  "url": "/uploads/Pelamis_platurus_e4383b5b57.jpg",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_Pelamis platurus.jpg",
+      "hash": "thumbnail_Pelamis_platurus_e4383b5b57",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 236,
+      "height": 156,
+      "size": 9.4,
+      "path": null,
+      "url": "/uploads/thumbnail_Pelamis_platurus_e4383b5b57.jpg"
+    },
+    "large": {
+      "name": "large_Pelamis platurus.jpg",
+      "hash": "large_Pelamis_platurus_e4383b5b57",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 1000,
+      "height": 662,
+      "size": 126.38,
+      "path": null,
+      "url": "/uploads/large_Pelamis_platurus_e4383b5b57.jpg"
+    },
+    "medium": {
+      "name": "medium_Pelamis platurus.jpg",
+      "hash": "medium_Pelamis_platurus_e4383b5b57",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 750,
+      "height": 496,
+      "size": 77.01,
+      "path": null,
+      "url": "/uploads/medium_Pelamis_platurus_e4383b5b57.jpg"
+    },
+    "small": {
+      "name": "small_Pelamis platurus.jpg",
+      "hash": "small_Pelamis_platurus_e4383b5b57",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 500,
+      "height": 331,
+      "size": 36.39,
+      "path": null,
+      "url": "/uploads/small_Pelamis_platurus_e4383b5b57.jpg"
+    }
+  },
+  "provider": "local",
+  "related": [
+    {
+      "_id": {
+        "$oid": "5fde0c0911fce1250488ed7b"
+      },
+      "ref": {
+        "$oid": "5fde0c0911fce1250488ed7a"
+      },
+      "kind": "Article",
+      "field": "cover"
+    }
+  ],
+  "createdAt": {
+    "$date": "2020-12-19T14:19:45.891Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-19T14:19:53.852Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  }
+},{
+  "_id": {
+    "$oid": "5fde0c2611fce1250488ed7c"
+  },
+  "name": "Praescutata viperina.jpg",
+  "alternativeText": "",
+  "caption": "",
+  "hash": "Praescutata_viperina_3c8b0216d4",
+  "ext": ".jpg",
+  "mime": "image/jpeg",
+  "size": 77.89,
+  "width": 700,
+  "height": 390,
+  "url": "/uploads/Praescutata_viperina_3c8b0216d4.jpg",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_Praescutata viperina.jpg",
+      "hash": "thumbnail_Praescutata_viperina_3c8b0216d4",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 245,
+      "height": 137,
+      "size": 11.86,
+      "path": null,
+      "url": "/uploads/thumbnail_Praescutata_viperina_3c8b0216d4.jpg"
+    },
+    "small": {
+      "name": "small_Praescutata viperina.jpg",
+      "hash": "small_Praescutata_viperina_3c8b0216d4",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 500,
+      "height": 279,
+      "size": 43.27,
+      "path": null,
+      "url": "/uploads/small_Praescutata_viperina_3c8b0216d4.jpg"
+    }
+  },
+  "provider": "local",
+  "related": [
+    {
+      "_id": {
+        "$oid": "5fde0c3111fce1250488ed7e"
+      },
+      "ref": {
+        "$oid": "5fde0c3111fce1250488ed7d"
+      },
+      "kind": "Article",
+      "field": "cover"
+    }
+  ],
+  "createdAt": {
+    "$date": "2020-12-19T14:20:22.669Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-19T14:20:33.729Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  }
+},{
+  "_id": {
+    "$oid": "5fde0ce811fce1250488ed7f"
+  },
+  "name": "Chitulia-inornata.jpg",
+  "alternativeText": "",
+  "caption": "",
+  "hash": "Chitulia_inornata_34728e4377",
+  "ext": ".jpg",
+  "mime": "image/jpeg",
+  "size": 93.68,
+  "width": 820,
+  "height": 635,
+  "url": "/uploads/Chitulia_inornata_34728e4377.jpg",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_Chitulia-inornata.jpg",
+      "hash": "thumbnail_Chitulia_inornata_34728e4377",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 201,
+      "height": 156,
+      "size": 7.69,
+      "path": null,
+      "url": "/uploads/thumbnail_Chitulia_inornata_34728e4377.jpg"
+    },
+    "medium": {
+      "name": "medium_Chitulia-inornata.jpg",
+      "hash": "medium_Chitulia_inornata_34728e4377",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 750,
+      "height": 581,
+      "size": 80.88,
+      "path": null,
+      "url": "/uploads/medium_Chitulia_inornata_34728e4377.jpg"
+    },
+    "small": {
+      "name": "small_Chitulia-inornata.jpg",
+      "hash": "small_Chitulia_inornata_34728e4377",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 500,
+      "height": 387,
+      "size": 41.14,
+      "path": null,
+      "url": "/uploads/small_Chitulia_inornata_34728e4377.jpg"
+    }
+  },
+  "provider": "local",
+  "related": [
+    {
+      "_id": {
+        "$oid": "5fde0cf511fce1250488ed80"
+      },
+      "ref": {
+        "$oid": "5fcf7773cb47d83b983dc54a"
+      },
+      "kind": "Article",
+      "field": "cover"
+    }
+  ],
+  "createdAt": {
+    "$date": "2020-12-19T14:23:36.985Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-19T14:23:49.673Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  }
+},{
+  "_id": {
+    "$oid": "5fde9ccb11fce1250488ed81"
+  },
+  "name": "Мандрепоровые кораллы.jpg",
+  "alternativeText": "",
+  "caption": "",
+  "hash": "Mandreporovye_korally_cd815a73ea",
+  "ext": ".jpg",
+  "mime": "image/jpeg",
+  "size": 235.94,
+  "width": 1200,
+  "height": 799,
+  "url": "/uploads/Mandreporovye_korally_cd815a73ea.jpg",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_Мандрепоровые кораллы.jpg",
+      "hash": "thumbnail_Mandreporovye_korally_cd815a73ea",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 234,
+      "height": 156,
+      "size": 13.47,
+      "path": null,
+      "url": "/uploads/thumbnail_Mandreporovye_korally_cd815a73ea.jpg"
+    },
+    "large": {
+      "name": "large_Мандрепоровые кораллы.jpg",
+      "hash": "large_Mandreporovye_korally_cd815a73ea",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 1000,
+      "height": 666,
+      "size": 178.51,
+      "path": null,
+      "url": "/uploads/large_Mandreporovye_korally_cd815a73ea.jpg"
+    },
+    "medium": {
+      "name": "medium_Мандрепоровые кораллы.jpg",
+      "hash": "medium_Mandreporovye_korally_cd815a73ea",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 750,
+      "height": 499,
+      "size": 111.47,
+      "path": null,
+      "url": "/uploads/medium_Mandreporovye_korally_cd815a73ea.jpg"
+    },
+    "small": {
+      "name": "small_Мандрепоровые кораллы.jpg",
+      "hash": "small_Mandreporovye_korally_cd815a73ea",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 500,
+      "height": 333,
+      "size": 52.63,
+      "path": null,
+      "url": "/uploads/small_Mandreporovye_korally_cd815a73ea.jpg"
+    }
+  },
+  "provider": "local",
+  "related": [
+    {
+      "_id": {
+        "$oid": "5fde9ce011fce1250488ed83"
+      },
+      "ref": {
+        "$oid": "5fde9ce011fce1250488ed82"
+      },
+      "kind": "Categories",
+      "field": "cover"
+    }
+  ],
+  "createdAt": {
+    "$date": "2020-12-20T00:37:31.018Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-20T00:37:52.799Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  }
+},{
+  "_id": {
+    "$oid": "5fde9dcfa9a70a264c37cf0a"
+  },
+  "name": "Acropora fosmosa.jpg",
+  "alternativeText": "",
+  "caption": "",
+  "hash": "Acropora_fosmosa_8ccaa550e1",
+  "ext": ".jpg",
+  "mime": "image/jpeg",
+  "size": 214.62,
+  "width": 1106,
+  "height": 738,
+  "url": "/uploads/Acropora_fosmosa_8ccaa550e1.jpg",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_Acropora fosmosa.jpg",
+      "hash": "thumbnail_Acropora_fosmosa_8ccaa550e1",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 234,
+      "height": 156,
+      "size": 15.51,
+      "path": null,
+      "url": "/uploads/thumbnail_Acropora_fosmosa_8ccaa550e1.jpg"
+    },
+    "large": {
+      "name": "large_Acropora fosmosa.jpg",
+      "hash": "large_Acropora_fosmosa_8ccaa550e1",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 1000,
+      "height": 667,
+      "size": 174.96,
+      "path": null,
+      "url": "/uploads/large_Acropora_fosmosa_8ccaa550e1.jpg"
+    },
+    "medium": {
+      "name": "medium_Acropora fosmosa.jpg",
+      "hash": "medium_Acropora_fosmosa_8ccaa550e1",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 750,
+      "height": 500,
+      "size": 111.17,
+      "path": null,
+      "url": "/uploads/medium_Acropora_fosmosa_8ccaa550e1.jpg"
+    },
+    "small": {
+      "name": "small_Acropora fosmosa.jpg",
+      "hash": "small_Acropora_fosmosa_8ccaa550e1",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 500,
+      "height": 334,
+      "size": 56.43,
+      "path": null,
+      "url": "/uploads/small_Acropora_fosmosa_8ccaa550e1.jpg"
+    }
+  },
+  "provider": "local",
+  "related": [
+    {
+      "_id": {
+        "$oid": "5fde9dfca9a70a264c37cf0c"
+      },
+      "ref": {
+        "$oid": "5fde9dfca9a70a264c37cf0b"
+      },
+      "kind": "Article",
+      "field": "cover"
+    }
+  ],
+  "createdAt": {
+    "$date": "2020-12-20T00:41:51.622Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-20T00:42:36.519Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  }
+},{
+  "_id": {
+    "$oid": "5fde9e36a9a70a264c37cf0d"
+  },
+  "name": "Acropora nacuta.jpg",
+  "alternativeText": "",
+  "caption": "",
+  "hash": "Acropora_nacuta_2e5e601a00",
+  "ext": ".jpg",
+  "mime": "image/jpeg",
+  "size": 154.74,
+  "width": 1032,
+  "height": 700,
+  "url": "/uploads/Acropora_nacuta_2e5e601a00.jpg",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_Acropora nacuta.jpg",
+      "hash": "thumbnail_Acropora_nacuta_2e5e601a00",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 230,
+      "height": 156,
+      "size": 11.84,
+      "path": null,
+      "url": "/uploads/thumbnail_Acropora_nacuta_2e5e601a00.jpg"
+    },
+    "large": {
+      "name": "large_Acropora nacuta.jpg",
+      "hash": "large_Acropora_nacuta_2e5e601a00",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 1000,
+      "height": 678,
+      "size": 145.52,
+      "path": null,
+      "url": "/uploads/large_Acropora_nacuta_2e5e601a00.jpg"
+    },
+    "medium": {
+      "name": "medium_Acropora nacuta.jpg",
+      "hash": "medium_Acropora_nacuta_2e5e601a00",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 750,
+      "height": 509,
+      "size": 93.78,
+      "path": null,
+      "url": "/uploads/medium_Acropora_nacuta_2e5e601a00.jpg"
+    },
+    "small": {
+      "name": "small_Acropora nacuta.jpg",
+      "hash": "small_Acropora_nacuta_2e5e601a00",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 500,
+      "height": 339,
+      "size": 46.44,
+      "path": null,
+      "url": "/uploads/small_Acropora_nacuta_2e5e601a00.jpg"
+    }
+  },
+  "provider": "local",
+  "related": [
+    {
+      "_id": {
+        "$oid": "5fde9e46a9a70a264c37cf0f"
+      },
+      "ref": {
+        "$oid": "5fde9e46a9a70a264c37cf0e"
+      },
+      "kind": "Article",
+      "field": "cover"
+    }
+  ],
+  "createdAt": {
+    "$date": "2020-12-20T00:43:34.924Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-20T00:43:50.600Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  }
+},{
+  "_id": {
+    "$oid": "5fde9e5ca9a70a264c37cf10"
+  },
+  "name": "Akropora gemmifera.jpg",
+  "alternativeText": "",
+  "caption": "",
+  "hash": "Akropora_gemmifera_35b834171a",
+  "ext": ".jpg",
+  "mime": "image/jpeg",
+  "size": 397.76,
+  "width": 2072,
+  "height": 2213,
+  "url": "/uploads/Akropora_gemmifera_35b834171a.jpg",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_Akropora gemmifera.jpg",
+      "hash": "thumbnail_Akropora_gemmifera_35b834171a",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 146,
+      "height": 156,
+      "size": 8.32,
+      "path": null,
+      "url": "/uploads/thumbnail_Akropora_gemmifera_35b834171a.jpg"
+    },
+    "large": {
+      "name": "large_Akropora gemmifera.jpg",
+      "hash": "large_Akropora_gemmifera_35b834171a",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 936,
+      "height": 1000,
+      "size": 159.31,
+      "path": null,
+      "url": "/uploads/large_Akropora_gemmifera_35b834171a.jpg"
+    },
+    "medium": {
+      "name": "medium_Akropora gemmifera.jpg",
+      "hash": "medium_Akropora_gemmifera_35b834171a",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 702,
+      "height": 750,
+      "size": 102.01,
+      "path": null,
+      "url": "/uploads/medium_Akropora_gemmifera_35b834171a.jpg"
+    },
+    "small": {
+      "name": "small_Akropora gemmifera.jpg",
+      "hash": "small_Akropora_gemmifera_35b834171a",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 468,
+      "height": 500,
+      "size": 53.72,
+      "path": null,
+      "url": "/uploads/small_Akropora_gemmifera_35b834171a.jpg"
+    }
+  },
+  "provider": "local",
+  "related": [
+    {
+      "_id": {
+        "$oid": "5fde9e9aa9a70a264c37cf12"
+      },
+      "ref": {
+        "$oid": "5fde9e9aa9a70a264c37cf11"
+      },
+      "kind": "Article",
+      "field": "cover"
+    }
+  ],
+  "createdAt": {
+    "$date": "2020-12-20T00:44:12.954Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-20T00:45:14.704Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  }
+},{
+  "_id": {
+    "$oid": "5fde9ed1a9a70a264c37cf13"
+  },
+  "name": "Akropora palmerae.jpg",
+  "alternativeText": "",
+  "caption": "",
+  "hash": "Akropora_palmerae_9807c1dfa3",
+  "ext": ".jpg",
+  "mime": "image/jpeg",
+  "size": 142.07,
+  "width": 852,
+  "height": 634,
+  "url": "/uploads/Akropora_palmerae_9807c1dfa3.jpg",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_Akropora palmerae.jpg",
+      "hash": "thumbnail_Akropora_palmerae_9807c1dfa3",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 210,
+      "height": 156,
+      "size": 11.62,
+      "path": null,
+      "url": "/uploads/thumbnail_Akropora_palmerae_9807c1dfa3.jpg"
+    },
+    "medium": {
+      "name": "medium_Akropora palmerae.jpg",
+      "hash": "medium_Akropora_palmerae_9807c1dfa3",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 750,
+      "height": 558,
+      "size": 111.38,
+      "path": null,
+      "url": "/uploads/medium_Akropora_palmerae_9807c1dfa3.jpg"
+    },
+    "small": {
+      "name": "small_Akropora palmerae.jpg",
+      "hash": "small_Akropora_palmerae_9807c1dfa3",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 500,
+      "height": 372,
+      "size": 57.1,
+      "path": null,
+      "url": "/uploads/small_Akropora_palmerae_9807c1dfa3.jpg"
+    }
+  },
+  "provider": "local",
+  "related": [
+    {
+      "_id": {
+        "$oid": "5fde9ed8a9a70a264c37cf15"
+      },
+      "ref": {
+        "$oid": "5fde9ed8a9a70a264c37cf14"
+      },
+      "kind": "Article",
+      "field": "cover"
+    }
+  ],
+  "createdAt": {
+    "$date": "2020-12-20T00:46:09.060Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-20T00:46:16.310Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  }
+},{
+  "_id": {
+    "$oid": "5fde9eeca9a70a264c37cf16"
+  },
+  "name": "Galaxea fascicularis.jpeg",
+  "alternativeText": "",
+  "caption": "",
+  "hash": "Galaxea_fascicularis_25d5fce32f",
+  "ext": ".jpeg",
+  "mime": "image/jpeg",
+  "size": 170.86,
+  "width": 792,
+  "height": 601,
+  "url": "/uploads/Galaxea_fascicularis_25d5fce32f.jpeg",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_Galaxea fascicularis.jpeg",
+      "hash": "thumbnail_Galaxea_fascicularis_25d5fce32f",
+      "ext": ".jpeg",
+      "mime": "image/jpeg",
+      "width": 206,
+      "height": 156,
+      "size": 13.5,
+      "path": null,
+      "url": "/uploads/thumbnail_Galaxea_fascicularis_25d5fce32f.jpeg"
+    },
+    "medium": {
+      "name": "medium_Galaxea fascicularis.jpeg",
+      "hash": "medium_Galaxea_fascicularis_25d5fce32f",
+      "ext": ".jpeg",
+      "mime": "image/jpeg",
+      "width": 750,
+      "height": 569,
+      "size": 152.12,
+      "path": null,
+      "url": "/uploads/medium_Galaxea_fascicularis_25d5fce32f.jpeg"
+    },
+    "small": {
+      "name": "small_Galaxea fascicularis.jpeg",
+      "hash": "small_Galaxea_fascicularis_25d5fce32f",
+      "ext": ".jpeg",
+      "mime": "image/jpeg",
+      "width": 500,
+      "height": 379,
+      "size": 73.48,
+      "path": null,
+      "url": "/uploads/small_Galaxea_fascicularis_25d5fce32f.jpeg"
+    }
+  },
+  "provider": "local",
+  "related": [
+    {
+      "_id": {
+        "$oid": "5fde9f0fa9a70a264c37cf18"
+      },
+      "ref": {
+        "$oid": "5fde9f0fa9a70a264c37cf17"
+      },
+      "kind": "Article",
+      "field": "cover"
+    }
+  ],
+  "createdAt": {
+    "$date": "2020-12-20T00:46:36.184Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-20T00:47:11.095Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  }
+},{
+  "_id": {
+    "$oid": "5fde9f50a9a70a264c37cf19"
+  },
+  "name": "Heliopora coerulea.jpeg",
+  "alternativeText": "",
+  "caption": "",
+  "hash": "Heliopora_coerulea_025abe2946",
+  "ext": ".jpeg",
+  "mime": "image/jpeg",
+  "size": 96.47,
+  "width": 800,
+  "height": 600,
+  "url": "/uploads/Heliopora_coerulea_025abe2946.jpeg",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_Heliopora coerulea.jpeg",
+      "hash": "thumbnail_Heliopora_coerulea_025abe2946",
+      "ext": ".jpeg",
+      "mime": "image/jpeg",
+      "width": 208,
+      "height": 156,
+      "size": 11.3,
+      "path": null,
+      "url": "/uploads/thumbnail_Heliopora_coerulea_025abe2946.jpeg"
+    },
+    "medium": {
+      "name": "medium_Heliopora coerulea.jpeg",
+      "hash": "medium_Heliopora_coerulea_025abe2946",
+      "ext": ".jpeg",
+      "mime": "image/jpeg",
+      "width": 750,
+      "height": 563,
+      "size": 88.54,
+      "path": null,
+      "url": "/uploads/medium_Heliopora_coerulea_025abe2946.jpeg"
+    },
+    "small": {
+      "name": "small_Heliopora coerulea.jpeg",
+      "hash": "small_Heliopora_coerulea_025abe2946",
+      "ext": ".jpeg",
+      "mime": "image/jpeg",
+      "width": 500,
+      "height": 375,
+      "size": 48.19,
+      "path": null,
+      "url": "/uploads/small_Heliopora_coerulea_025abe2946.jpeg"
+    }
+  },
+  "provider": "local",
+  "related": [
+    {
+      "_id": {
+        "$oid": "5fde9f57a9a70a264c37cf1b"
+      },
+      "ref": {
+        "$oid": "5fde9f57a9a70a264c37cf1a"
+      },
+      "kind": "Article",
+      "field": "cover"
+    }
+  ],
+  "createdAt": {
+    "$date": "2020-12-20T00:48:16.876Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-20T00:48:23.713Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  }
+},{
+  "_id": {
+    "$oid": "5fde9fd5a9a70a264c37cf1c"
+  },
+  "name": "Montipora turgescens.jpg",
+  "alternativeText": "",
+  "caption": "",
+  "hash": "Montipora_turgescens_15c3aec4fb",
+  "ext": ".jpg",
+  "mime": "image/jpeg",
+  "size": 356.57,
+  "width": 1200,
+  "height": 980,
+  "url": "/uploads/Montipora_turgescens_15c3aec4fb.jpg",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_Montipora turgescens.jpg",
+      "hash": "thumbnail_Montipora_turgescens_15c3aec4fb",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 191,
+      "height": 156,
+      "size": 12.94,
+      "path": null,
+      "url": "/uploads/thumbnail_Montipora_turgescens_15c3aec4fb.jpg"
+    },
+    "large": {
+      "name": "large_Montipora turgescens.jpg",
+      "hash": "large_Montipora_turgescens_15c3aec4fb",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 1000,
+      "height": 817,
+      "size": 251.91,
+      "path": null,
+      "url": "/uploads/large_Montipora_turgescens_15c3aec4fb.jpg"
+    },
+    "medium": {
+      "name": "medium_Montipora turgescens.jpg",
+      "hash": "medium_Montipora_turgescens_15c3aec4fb",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 750,
+      "height": 613,
+      "size": 157.36,
+      "path": null,
+      "url": "/uploads/medium_Montipora_turgescens_15c3aec4fb.jpg"
+    },
+    "small": {
+      "name": "small_Montipora turgescens.jpg",
+      "hash": "small_Montipora_turgescens_15c3aec4fb",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 500,
+      "height": 408,
+      "size": 76.51,
+      "path": null,
+      "url": "/uploads/small_Montipora_turgescens_15c3aec4fb.jpg"
+    }
+  },
+  "provider": "local",
+  "related": [
+    {
+      "_id": {
+        "$oid": "5fde9fe0a9a70a264c37cf1e"
+      },
+      "ref": {
+        "$oid": "5fde9fe0a9a70a264c37cf1d"
+      },
+      "kind": "Article",
+      "field": "cover"
+    }
+  ],
+  "createdAt": {
+    "$date": "2020-12-20T00:50:29.130Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-20T00:50:40.422Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  }
+},{
+  "_id": {
+    "$oid": "5fde9ffca9a70a264c37cf1f"
+  },
+  "name": "Palauastrea ramose.jpg",
+  "alternativeText": "",
+  "caption": "",
+  "hash": "Palauastrea_ramose_d61ac384d8",
+  "ext": ".jpg",
+  "mime": "image/jpeg",
+  "size": 96.26,
+  "width": 670,
+  "height": 444,
+  "url": "/uploads/Palauastrea_ramose_d61ac384d8.jpg",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_Palauastrea ramose.jpg",
+      "hash": "thumbnail_Palauastrea_ramose_d61ac384d8",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 235,
+      "height": 156,
+      "size": 14.31,
+      "path": null,
+      "url": "/uploads/thumbnail_Palauastrea_ramose_d61ac384d8.jpg"
+    },
+    "small": {
+      "name": "small_Palauastrea ramose.jpg",
+      "hash": "small_Palauastrea_ramose_d61ac384d8",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 500,
+      "height": 331,
+      "size": 58.18,
+      "path": null,
+      "url": "/uploads/small_Palauastrea_ramose_d61ac384d8.jpg"
+    }
+  },
+  "provider": "local",
+  "related": [
+    {
+      "_id": {
+        "$oid": "5fdea065a9a70a264c37cf21"
+      },
+      "ref": {
+        "$oid": "5fdea065a9a70a264c37cf20"
+      },
+      "kind": "Article",
+      "field": "cover"
+    }
+  ],
+  "createdAt": {
+    "$date": "2020-12-20T00:51:08.819Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-20T00:52:53.689Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  }
+},{
+  "_id": {
+    "$oid": "5fdea07ba9a70a264c37cf22"
+  },
+  "name": "Pectinia lactuca.jpg",
+  "alternativeText": "",
+  "caption": "",
+  "hash": "Pectinia_lactuca_db0fa0e33f",
+  "ext": ".jpg",
+  "mime": "image/jpeg",
+  "size": 52.54,
+  "width": 608,
+  "height": 456,
+  "url": "/uploads/Pectinia_lactuca_db0fa0e33f.jpg",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_Pectinia lactuca.jpg",
+      "hash": "thumbnail_Pectinia_lactuca_db0fa0e33f",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 208,
+      "height": 156,
+      "size": 9.24,
+      "path": null,
+      "url": "/uploads/thumbnail_Pectinia_lactuca_db0fa0e33f.jpg"
+    },
+    "small": {
+      "name": "small_Pectinia lactuca.jpg",
+      "hash": "small_Pectinia_lactuca_db0fa0e33f",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 500,
+      "height": 375,
+      "size": 42.49,
+      "path": null,
+      "url": "/uploads/small_Pectinia_lactuca_db0fa0e33f.jpg"
+    }
+  },
+  "provider": "local",
+  "related": [
+    {
+      "_id": {
+        "$oid": "5fdea09fa9a70a264c37cf24"
+      },
+      "ref": {
+        "$oid": "5fdea09fa9a70a264c37cf23"
+      },
+      "kind": "Article",
+      "field": "cover"
+    }
+  ],
+  "createdAt": {
+    "$date": "2020-12-20T00:53:15.803Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-20T00:53:51.698Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  }
+},{
+  "_id": {
+    "$oid": "5fdea0b0a9a70a264c37cf25"
+  },
+  "name": "Porites letea.jpg",
+  "alternativeText": "",
+  "caption": "",
+  "hash": "Porites_letea_f34f201401",
+  "ext": ".jpg",
+  "mime": "image/jpeg",
+  "size": 1750.51,
+  "width": 3648,
+  "height": 2736,
+  "url": "/uploads/Porites_letea_f34f201401.jpg",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_Porites letea.jpg",
+      "hash": "thumbnail_Porites_letea_f34f201401",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 208,
+      "height": 156,
+      "size": 10.05,
+      "path": null,
+      "url": "/uploads/thumbnail_Porites_letea_f34f201401.jpg"
+    },
+    "large": {
+      "name": "large_Porites letea.jpg",
+      "hash": "large_Porites_letea_f34f201401",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 1000,
+      "height": 750,
+      "size": 144.46,
+      "path": null,
+      "url": "/uploads/large_Porites_letea_f34f201401.jpg"
+    },
+    "medium": {
+      "name": "medium_Porites letea.jpg",
+      "hash": "medium_Porites_letea_f34f201401",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 750,
+      "height": 563,
+      "size": 87.47,
+      "path": null,
+      "url": "/uploads/medium_Porites_letea_f34f201401.jpg"
+    },
+    "small": {
+      "name": "small_Porites letea.jpg",
+      "hash": "small_Porites_letea_f34f201401",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 500,
+      "height": 375,
+      "size": 44.45,
+      "path": null,
+      "url": "/uploads/small_Porites_letea_f34f201401.jpg"
+    }
+  },
+  "provider": "local",
+  "related": [
+    {
+      "_id": {
+        "$oid": "5fdea0cea9a70a264c37cf27"
+      },
+      "ref": {
+        "$oid": "5fdea0cea9a70a264c37cf26"
+      },
+      "kind": "Article",
+      "field": "cover"
+    }
+  ],
+  "createdAt": {
+    "$date": "2020-12-20T00:54:08.156Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-20T00:54:38.682Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  }
+},{
+  "_id": {
+    "$oid": "5fdea0e0a9a70a264c37cf28"
+  },
+  "name": "Porites lichen.jpg",
+  "alternativeText": "",
+  "caption": "",
+  "hash": "Porites_lichen_ae3d2504ec",
+  "ext": ".jpg",
+  "mime": "image/jpeg",
+  "size": 184.39,
+  "width": 1024,
+  "height": 680,
+  "url": "/uploads/Porites_lichen_ae3d2504ec.jpg",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_Porites lichen.jpg",
+      "hash": "thumbnail_Porites_lichen_ae3d2504ec",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 235,
+      "height": 156,
+      "size": 14.14,
+      "path": null,
+      "url": "/uploads/thumbnail_Porites_lichen_ae3d2504ec.jpg"
+    },
+    "large": {
+      "name": "large_Porites lichen.jpg",
+      "hash": "large_Porites_lichen_ae3d2504ec",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 1000,
+      "height": 664,
+      "size": 173.81,
+      "path": null,
+      "url": "/uploads/large_Porites_lichen_ae3d2504ec.jpg"
+    },
+    "medium": {
+      "name": "medium_Porites lichen.jpg",
+      "hash": "medium_Porites_lichen_ae3d2504ec",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 750,
+      "height": 498,
+      "size": 109.75,
+      "path": null,
+      "url": "/uploads/medium_Porites_lichen_ae3d2504ec.jpg"
+    },
+    "small": {
+      "name": "small_Porites lichen.jpg",
+      "hash": "small_Porites_lichen_ae3d2504ec",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 500,
+      "height": 332,
+      "size": 52.99,
+      "path": null,
+      "url": "/uploads/small_Porites_lichen_ae3d2504ec.jpg"
+    }
+  },
+  "provider": "local",
+  "related": [
+    {
+      "_id": {
+        "$oid": "5fdea0f4a9a70a264c37cf2a"
+      },
+      "ref": {
+        "$oid": "5fdea0f4a9a70a264c37cf29"
+      },
+      "kind": "Article",
+      "field": "cover"
+    }
+  ],
+  "createdAt": {
+    "$date": "2020-12-20T00:54:56.783Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-20T00:55:16.913Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  }
+},{
+  "_id": {
+    "$oid": "5fdea12ba9a70a264c37cf2b"
+  },
+  "name": "Porites rus.jpg",
+  "alternativeText": "",
+  "caption": "",
+  "hash": "Porites_rus_0cef22a069",
+  "ext": ".jpg",
+  "mime": "image/jpeg",
+  "size": 215.56,
+  "width": 1200,
+  "height": 895,
+  "url": "/uploads/Porites_rus_0cef22a069.jpg",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_Porites rus.jpg",
+      "hash": "thumbnail_Porites_rus_0cef22a069",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 209,
+      "height": 156,
+      "size": 10.7,
+      "path": null,
+      "url": "/uploads/thumbnail_Porites_rus_0cef22a069.jpg"
+    },
+    "large": {
+      "name": "large_Porites rus.jpg",
+      "hash": "large_Porites_rus_0cef22a069",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 1000,
+      "height": 746,
+      "size": 157.71,
+      "path": null,
+      "url": "/uploads/large_Porites_rus_0cef22a069.jpg"
+    },
+    "medium": {
+      "name": "medium_Porites rus.jpg",
+      "hash": "medium_Porites_rus_0cef22a069",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 750,
+      "height": 559,
+      "size": 94.9,
+      "path": null,
+      "url": "/uploads/medium_Porites_rus_0cef22a069.jpg"
+    },
+    "small": {
+      "name": "small_Porites rus.jpg",
+      "hash": "small_Porites_rus_0cef22a069",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 500,
+      "height": 373,
+      "size": 45.89,
+      "path": null,
+      "url": "/uploads/small_Porites_rus_0cef22a069.jpg"
+    }
+  },
+  "provider": "local",
+  "related": [
+    {
+      "_id": {
+        "$oid": "5fdea15ca9a70a264c37cf2d"
+      },
+      "ref": {
+        "$oid": "5fdea15ca9a70a264c37cf2c"
+      },
+      "kind": "Article",
+      "field": "cover"
+    }
+  ],
+  "createdAt": {
+    "$date": "2020-12-20T00:56:11.950Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-20T00:57:00.629Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  }
+},{
+  "_id": {
+    "$oid": "5fdea18ba9a70a264c37cf2e"
+  },
+  "name": "Stylophora pistillata.jpg",
+  "alternativeText": "",
+  "caption": "",
+  "hash": "Stylophora_pistillata_10e4eebcab",
+  "ext": ".jpg",
+  "mime": "image/jpeg",
+  "size": 302.89,
+  "width": 1405,
+  "height": 1055,
+  "url": "/uploads/Stylophora_pistillata_10e4eebcab.jpg",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_Stylophora pistillata.jpg",
+      "hash": "thumbnail_Stylophora_pistillata_10e4eebcab",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 208,
+      "height": 156,
+      "size": 12.88,
+      "path": null,
+      "url": "/uploads/thumbnail_Stylophora_pistillata_10e4eebcab.jpg"
+    },
+    "large": {
+      "name": "large_Stylophora pistillata.jpg",
+      "hash": "large_Stylophora_pistillata_10e4eebcab",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 1000,
+      "height": 751,
+      "size": 181.07,
+      "path": null,
+      "url": "/uploads/large_Stylophora_pistillata_10e4eebcab.jpg"
+    },
+    "medium": {
+      "name": "medium_Stylophora pistillata.jpg",
+      "hash": "medium_Stylophora_pistillata_10e4eebcab",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 750,
+      "height": 563,
+      "size": 117.2,
+      "path": null,
+      "url": "/uploads/medium_Stylophora_pistillata_10e4eebcab.jpg"
+    },
+    "small": {
+      "name": "small_Stylophora pistillata.jpg",
+      "hash": "small_Stylophora_pistillata_10e4eebcab",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 500,
+      "height": 375,
+      "size": 59.95,
+      "path": null,
+      "url": "/uploads/small_Stylophora_pistillata_10e4eebcab.jpg"
+    }
+  },
+  "provider": "local",
+  "related": [
+    {
+      "_id": {
+        "$oid": "5fdea241a9a70a264c37cf30"
+      },
+      "ref": {
+        "$oid": "5fdea241a9a70a264c37cf2f"
+      },
+      "kind": "Article",
+      "field": "cover"
+    }
+  ],
+  "createdAt": {
+    "$date": "2020-12-20T00:57:47.905Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-20T01:00:49.507Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  }
+},{
+  "_id": {
+    "$oid": "5fdea26ba9a70a264c37cf31"
+  },
+  "name": "Tubastrea coccinea.jpg",
+  "alternativeText": "",
+  "caption": "",
+  "hash": "Tubastrea_coccinea_2cb803f9e7",
+  "ext": ".jpg",
+  "mime": "image/jpeg",
+  "size": 260.23,
+  "width": 1920,
+  "height": 1440,
+  "url": "/uploads/Tubastrea_coccinea_2cb803f9e7.jpg",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_Tubastrea coccinea.jpg",
+      "hash": "thumbnail_Tubastrea_coccinea_2cb803f9e7",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 208,
+      "height": 156,
+      "size": 9.6,
+      "path": null,
+      "url": "/uploads/thumbnail_Tubastrea_coccinea_2cb803f9e7.jpg"
+    },
+    "large": {
+      "name": "large_Tubastrea coccinea.jpg",
+      "hash": "large_Tubastrea_coccinea_2cb803f9e7",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 1000,
+      "height": 750,
+      "size": 106.28,
+      "path": null,
+      "url": "/uploads/large_Tubastrea_coccinea_2cb803f9e7.jpg"
+    },
+    "medium": {
+      "name": "medium_Tubastrea coccinea.jpg",
+      "hash": "medium_Tubastrea_coccinea_2cb803f9e7",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 750,
+      "height": 563,
+      "size": 70.09,
+      "path": null,
+      "url": "/uploads/medium_Tubastrea_coccinea_2cb803f9e7.jpg"
+    },
+    "small": {
+      "name": "small_Tubastrea coccinea.jpg",
+      "hash": "small_Tubastrea_coccinea_2cb803f9e7",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 500,
+      "height": 375,
+      "size": 38.96,
+      "path": null,
+      "url": "/uploads/small_Tubastrea_coccinea_2cb803f9e7.jpg"
+    }
+  },
+  "provider": "local",
+  "related": [
+    {
+      "_id": {
+        "$oid": "5fdea27ca9a70a264c37cf33"
+      },
+      "ref": {
+        "$oid": "5fdea27ca9a70a264c37cf32"
+      },
+      "kind": "Article",
+      "field": "cover"
+    }
+  ],
+  "createdAt": {
+    "$date": "2020-12-20T01:01:31.225Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-20T01:01:48.880Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  },
+  "updated_by": {
+    "$oid": "5fcf75afa81fac474830d062"
+  }
+}]

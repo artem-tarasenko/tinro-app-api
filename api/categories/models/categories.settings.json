@@ -26,13 +26,36 @@
       "required": true
     },
     "subcategories": {
-      "collection": "categories"
+      "collection": "categories",
+      "via": "parentCategory"
+    },
+    "parentCategory": {
+      "model": "categories",
+      "via": "subcategories"
     },
     "articles": {
+      "via": "parentCategory",
       "collection": "article"
     },
     "description": {
+      "via": "categoryDescription",
       "model": "article"
+    },
+    "LeftParent": {
+      "type": "boolean",
+      "default": false
+    },
+    "RightParent": {
+      "type": "boolean",
+      "default": false
+    },
+    "Parent": {
+      "type": "enumeration",
+      "enum": [
+        "DV",
+        "Tropic"
+      ],
+      "required": true
     }
   }
 }

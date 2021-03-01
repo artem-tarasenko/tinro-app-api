@@ -1,0 +1,1202 @@
+[{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d031"
+  },
+  "action": "plugins::upload.read",
+  "conditions": [],
+  "subject": null,
+  "fields": null,
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.251Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.266Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02f"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d032"
+  },
+  "action": "plugins::upload.assets.create",
+  "subject": null,
+  "conditions": [],
+  "fields": null,
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.251Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.269Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02f"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d033"
+  },
+  "action": "plugins::upload.assets.update",
+  "conditions": [],
+  "subject": null,
+  "fields": null,
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.251Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.270Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02f"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d034"
+  },
+  "action": "plugins::upload.assets.download",
+  "subject": null,
+  "conditions": [],
+  "fields": null,
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.251Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.271Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02f"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d035"
+  },
+  "action": "plugins::upload.assets.copy-link",
+  "subject": null,
+  "conditions": [],
+  "fields": null,
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.251Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.272Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02f"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d036"
+  },
+  "action": "plugins::upload.read",
+  "conditions": [
+    "admin::is-creator"
+  ],
+  "subject": null,
+  "fields": null,
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.291Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.303Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d030"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d037"
+  },
+  "action": "plugins::upload.assets.create",
+  "subject": null,
+  "conditions": [],
+  "fields": null,
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.291Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.306Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d030"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d038"
+  },
+  "action": "plugins::upload.assets.update",
+  "conditions": [
+    "admin::is-creator"
+  ],
+  "subject": null,
+  "fields": null,
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.291Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.306Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d030"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d039"
+  },
+  "action": "plugins::upload.assets.download",
+  "subject": null,
+  "conditions": [],
+  "fields": null,
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.292Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.307Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d030"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d03a"
+  },
+  "action": "plugins::upload.assets.copy-link",
+  "subject": null,
+  "conditions": [],
+  "fields": null,
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.292Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.308Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d030"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d03b"
+  },
+  "action": "plugins::content-manager.explorer.create",
+  "subject": "plugins::users-permissions.user",
+  "fields": [
+    "username",
+    "email",
+    "provider",
+    "password",
+    "resetPasswordToken",
+    "confirmationToken",
+    "confirmed",
+    "blocked",
+    "role"
+  ],
+  "conditions": [],
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.364Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.433Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d03c"
+  },
+  "action": "plugins::content-manager.explorer.read",
+  "subject": "plugins::users-permissions.user",
+  "fields": [
+    "username",
+    "email",
+    "provider",
+    "password",
+    "resetPasswordToken",
+    "confirmationToken",
+    "confirmed",
+    "blocked",
+    "role"
+  ],
+  "conditions": [],
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.364Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.435Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d03d"
+  },
+  "action": "plugins::content-manager.explorer.update",
+  "subject": "plugins::users-permissions.user",
+  "fields": [
+    "username",
+    "email",
+    "provider",
+    "password",
+    "resetPasswordToken",
+    "confirmationToken",
+    "confirmed",
+    "blocked",
+    "role"
+  ],
+  "conditions": [],
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.364Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.435Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d03e"
+  },
+  "action": "plugins::content-manager.explorer.delete",
+  "subject": "plugins::users-permissions.user",
+  "fields": null,
+  "conditions": [],
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.364Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.436Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d03f"
+  },
+  "action": "plugins::content-type-builder.read",
+  "subject": null,
+  "conditions": [],
+  "fields": null,
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.364Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.437Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d040"
+  },
+  "action": "plugins::upload.read",
+  "subject": null,
+  "conditions": [],
+  "fields": null,
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.365Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.438Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d041"
+  },
+  "action": "plugins::upload.assets.create",
+  "subject": null,
+  "conditions": [],
+  "fields": null,
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.365Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.441Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d042"
+  },
+  "action": "plugins::upload.assets.update",
+  "subject": null,
+  "conditions": [],
+  "fields": null,
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.365Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.443Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d043"
+  },
+  "action": "plugins::upload.assets.download",
+  "subject": null,
+  "conditions": [],
+  "fields": null,
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.365Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.443Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d044"
+  },
+  "action": "plugins::upload.assets.copy-link",
+  "subject": null,
+  "conditions": [],
+  "fields": null,
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.365Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.443Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d045"
+  },
+  "action": "plugins::upload.settings.read",
+  "subject": null,
+  "conditions": [],
+  "fields": null,
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.365Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.443Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d046"
+  },
+  "action": "plugins::content-manager.single-types.configure-view",
+  "subject": null,
+  "conditions": [],
+  "fields": null,
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.365Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.453Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d047"
+  },
+  "action": "plugins::content-manager.collection-types.configure-view",
+  "subject": null,
+  "conditions": [],
+  "fields": null,
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.365Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.454Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d048"
+  },
+  "action": "plugins::content-manager.components.configure-layout",
+  "subject": null,
+  "conditions": [],
+  "fields": null,
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.365Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.454Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d049"
+  },
+  "action": "plugins::users-permissions.roles.create",
+  "subject": null,
+  "conditions": [],
+  "fields": null,
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.365Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.454Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d04a"
+  },
+  "action": "plugins::users-permissions.roles.read",
+  "subject": null,
+  "conditions": [],
+  "fields": null,
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.365Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.455Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d04b"
+  },
+  "action": "plugins::users-permissions.roles.update",
+  "subject": null,
+  "conditions": [],
+  "fields": null,
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.365Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.459Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d04c"
+  },
+  "action": "plugins::users-permissions.roles.delete",
+  "subject": null,
+  "conditions": [],
+  "fields": null,
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.366Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.459Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d04e"
+  },
+  "action": "plugins::users-permissions.providers.update",
+  "subject": null,
+  "conditions": [],
+  "fields": null,
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.366Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.459Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d04d"
+  },
+  "action": "plugins::users-permissions.providers.read",
+  "subject": null,
+  "conditions": [],
+  "fields": null,
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.366Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.459Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d04f"
+  },
+  "action": "plugins::users-permissions.email-templates.read",
+  "subject": null,
+  "conditions": [],
+  "fields": null,
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.366Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.460Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d050"
+  },
+  "action": "plugins::users-permissions.email-templates.update",
+  "subject": null,
+  "conditions": [],
+  "fields": null,
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.366Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.470Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d051"
+  },
+  "action": "plugins::users-permissions.advanced-settings.read",
+  "subject": null,
+  "conditions": [],
+  "fields": null,
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.366Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.471Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d052"
+  },
+  "action": "plugins::users-permissions.advanced-settings.update",
+  "subject": null,
+  "conditions": [],
+  "fields": null,
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.366Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.472Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d053"
+  },
+  "action": "admin::marketplace.read",
+  "subject": null,
+  "conditions": [],
+  "fields": null,
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.366Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.472Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d054"
+  },
+  "action": "admin::marketplace.plugins.install",
+  "subject": null,
+  "conditions": [],
+  "fields": null,
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.366Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.472Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d055"
+  },
+  "action": "admin::marketplace.plugins.uninstall",
+  "subject": null,
+  "conditions": [],
+  "fields": null,
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.366Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.479Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d056"
+  },
+  "action": "admin::webhooks.create",
+  "subject": null,
+  "conditions": [],
+  "fields": null,
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.366Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.479Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d057"
+  },
+  "action": "admin::webhooks.read",
+  "subject": null,
+  "conditions": [],
+  "fields": null,
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.366Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.479Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d058"
+  },
+  "action": "admin::webhooks.update",
+  "subject": null,
+  "conditions": [],
+  "fields": null,
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.366Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.480Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d059"
+  },
+  "action": "admin::webhooks.delete",
+  "subject": null,
+  "conditions": [],
+  "fields": null,
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.367Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.480Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d05a"
+  },
+  "action": "admin::users.create",
+  "subject": null,
+  "conditions": [],
+  "fields": null,
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.367Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.485Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d05b"
+  },
+  "action": "admin::users.read",
+  "subject": null,
+  "conditions": [],
+  "fields": null,
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.367Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.486Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d05c"
+  },
+  "action": "admin::users.update",
+  "subject": null,
+  "conditions": [],
+  "fields": null,
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.367Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.486Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d05d"
+  },
+  "action": "admin::users.delete",
+  "subject": null,
+  "conditions": [],
+  "fields": null,
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.367Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.487Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d05e"
+  },
+  "action": "admin::roles.create",
+  "subject": null,
+  "conditions": [],
+  "fields": null,
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.367Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.489Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d05f"
+  },
+  "action": "admin::roles.read",
+  "subject": null,
+  "conditions": [],
+  "fields": null,
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.367Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.493Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d060"
+  },
+  "action": "admin::roles.update",
+  "subject": null,
+  "conditions": [],
+  "fields": null,
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.367Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.493Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf759ca81fac474830d061"
+  },
+  "action": "admin::roles.delete",
+  "subject": null,
+  "conditions": [],
+  "fields": null,
+  "createdAt": {
+    "$date": "2020-12-08T12:46:20.367Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:46:20.496Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf761907342e4320bcf0dd"
+  },
+  "action": "plugins::content-manager.explorer.delete",
+  "subject": "application::article.article",
+  "fields": null,
+  "conditions": [],
+  "createdAt": {
+    "$date": "2020-12-08T12:48:25.570Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:48:25.588Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf761907342e4320bcf0de"
+  },
+  "action": "plugins::content-manager.explorer.publish",
+  "subject": "application::article.article",
+  "fields": null,
+  "conditions": [],
+  "createdAt": {
+    "$date": "2020-12-08T12:48:25.570Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:48:25.589Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf766acb47d83b983dc547"
+  },
+  "action": "plugins::content-manager.explorer.delete",
+  "subject": "application::categories.categories",
+  "fields": null,
+  "conditions": [],
+  "createdAt": {
+    "$date": "2020-12-08T12:49:46.857Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:49:46.882Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+},{
+  "_id": {
+    "$oid": "5fcf766acb47d83b983dc548"
+  },
+  "action": "plugins::content-manager.explorer.publish",
+  "subject": "application::categories.categories",
+  "fields": null,
+  "conditions": [],
+  "createdAt": {
+    "$date": "2020-12-08T12:49:46.857Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-08T12:49:46.883Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+},{
+  "_id": {
+    "$oid": "5fd0d1c9b9b72b769cffeb43"
+  },
+  "action": "plugins::documentation.read",
+  "subject": null,
+  "conditions": [],
+  "fields": null,
+  "createdAt": {
+    "$date": "2020-12-09T13:31:53.808Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-09T13:31:53.844Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+},{
+  "_id": {
+    "$oid": "5fd0d1c9b9b72b769cffeb44"
+  },
+  "action": "plugins::documentation.settings.update",
+  "subject": null,
+  "conditions": [],
+  "fields": null,
+  "createdAt": {
+    "$date": "2020-12-09T13:31:53.808Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-09T13:31:53.847Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+},{
+  "_id": {
+    "$oid": "5fd0d1c9b9b72b769cffeb45"
+  },
+  "action": "plugins::documentation.settings.regenerate",
+  "subject": null,
+  "conditions": [],
+  "fields": null,
+  "createdAt": {
+    "$date": "2020-12-09T13:31:53.808Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-09T13:31:53.863Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+},{
+  "_id": {
+    "$oid": "5fd88dd4a9520e18d44706ba"
+  },
+  "action": "plugins::content-manager.explorer.create",
+  "subject": "application::categories.categories",
+  "fields": [
+    "title",
+    "cover",
+    "subcategories",
+    "parentCategory",
+    "articles",
+    "description"
+  ],
+  "conditions": [],
+  "createdAt": {
+    "$date": "2020-12-15T10:20:04.951Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-15T10:20:05.015Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+},{
+  "_id": {
+    "$oid": "5fd88dd4a9520e18d44706bc"
+  },
+  "action": "plugins::content-manager.explorer.read",
+  "subject": "application::categories.categories",
+  "fields": [
+    "title",
+    "cover",
+    "subcategories",
+    "parentCategory",
+    "articles",
+    "description"
+  ],
+  "conditions": [],
+  "createdAt": {
+    "$date": "2020-12-15T10:20:04.951Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-15T10:20:04.983Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+},{
+  "_id": {
+    "$oid": "5fd88dd4a9520e18d44706be"
+  },
+  "action": "plugins::content-manager.explorer.update",
+  "subject": "application::categories.categories",
+  "fields": [
+    "title",
+    "cover",
+    "subcategories",
+    "parentCategory",
+    "articles",
+    "description"
+  ],
+  "conditions": [],
+  "createdAt": {
+    "$date": "2020-12-15T10:20:04.951Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-15T10:20:04.984Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+},{
+  "_id": {
+    "$oid": "5fde078311fce1250488ed5e"
+  },
+  "action": "plugins::content-manager.explorer.create",
+  "subject": "application::article.article",
+  "fields": [
+    "title",
+    "subtitle",
+    "content",
+    "number",
+    "gallery",
+    "cover",
+    "parentCategory",
+    "categoryDescription",
+    "ParentCategoryFilter"
+  ],
+  "conditions": [],
+  "createdAt": {
+    "$date": "2020-12-19T14:00:35.433Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-19T14:00:35.447Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+},{
+  "_id": {
+    "$oid": "5fde078311fce1250488ed5f"
+  },
+  "action": "plugins::content-manager.explorer.read",
+  "subject": "application::article.article",
+  "fields": [
+    "title",
+    "subtitle",
+    "content",
+    "number",
+    "gallery",
+    "cover",
+    "parentCategory",
+    "categoryDescription",
+    "ParentCategoryFilter"
+  ],
+  "conditions": [],
+  "createdAt": {
+    "$date": "2020-12-19T14:00:35.433Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-19T14:00:35.449Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+},{
+  "_id": {
+    "$oid": "5fde078311fce1250488ed60"
+  },
+  "action": "plugins::content-manager.explorer.update",
+  "subject": "application::article.article",
+  "fields": [
+    "title",
+    "subtitle",
+    "content",
+    "number",
+    "gallery",
+    "cover",
+    "parentCategory",
+    "categoryDescription",
+    "ParentCategoryFilter"
+  ],
+  "conditions": [],
+  "createdAt": {
+    "$date": "2020-12-19T14:00:35.433Z"
+  },
+  "updatedAt": {
+    "$date": "2020-12-19T14:00:35.450Z"
+  },
+  "__v": 0,
+  "role": {
+    "$oid": "5fcf759ca81fac474830d02e"
+  }
+}]
