@@ -14,7 +14,11 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
+<<<<<<< HEAD
     "x-generation-date": "03/01/2021 11:34:57 PM"
+=======
+    "x-generation-date": "12/15/2020 12:36:28 PM"
+>>>>>>> e12faa6b0cfe4b24b5512b327bcff064f70b9f15
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -1067,6 +1071,7 @@
         ]
       }
     },
+<<<<<<< HEAD
     "/settings": {
       "get": {
         "deprecated": false,
@@ -1074,12 +1079,25 @@
         "responses": {
           "200": {
             "description": "Retrieve settings document(s)",
+=======
+    "/testarticles": {
+      "get": {
+        "deprecated": false,
+        "description": "Find all the testarticles's records",
+        "responses": {
+          "200": {
+            "description": "Retrieve testarticles document(s)",
+>>>>>>> e12faa6b0cfe4b24b5512b327bcff064f70b9f15
             "content": {
               "application/json": {
                 "schema": {
                   "type": "array",
                   "items": {
+<<<<<<< HEAD
                     "$ref": "#/components/schemas/Settings"
+=======
+                    "$ref": "#/components/schemas/Testarticles"
+>>>>>>> e12faa6b0cfe4b24b5512b327bcff064f70b9f15
                   }
                 }
               }
@@ -1118,7 +1136,11 @@
         },
         "summary": "",
         "tags": [
+<<<<<<< HEAD
           "Settings"
+=======
+          "Testarticles"
+>>>>>>> e12faa6b0cfe4b24b5512b327bcff064f70b9f15
         ],
         "parameters": [
           {
@@ -1261,6 +1283,7 @@
       },
       "post": {
         "deprecated": false,
+<<<<<<< HEAD
         "description": "Create a new settings record",
         "responses": {
           "200": {
@@ -1269,6 +1292,16 @@
               "application/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Settings"
+=======
+        "description": "Create a new testarticles record",
+        "responses": {
+          "200": {
+            "description": "Retrieve testarticles document(s)",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Testarticles"
+>>>>>>> e12faa6b0cfe4b24b5512b327bcff064f70b9f15
                 }
               }
             }
@@ -1306,7 +1339,11 @@
         },
         "summary": "",
         "tags": [
+<<<<<<< HEAD
           "Settings"
+=======
+          "Testarticles"
+>>>>>>> e12faa6b0cfe4b24b5512b327bcff064f70b9f15
         ],
         "requestBody": {
           "description": "",
@@ -1314,13 +1351,18 @@
           "content": {
             "application/json": {
               "schema": {
+<<<<<<< HEAD
                 "$ref": "#/components/schemas/NewSettings"
+=======
+                "$ref": "#/components/schemas/NewTestarticles"
+>>>>>>> e12faa6b0cfe4b24b5512b327bcff064f70b9f15
               }
             }
           }
         }
       }
     },
+<<<<<<< HEAD
     "/settings/count": {
       "get": {
         "deprecated": false,
@@ -1328,6 +1370,15 @@
         "responses": {
           "200": {
             "description": "Retrieve settings document(s)",
+=======
+    "/testarticles/count": {
+      "get": {
+        "deprecated": false,
+        "description": "Retrieve the numver of testarticles documents",
+        "responses": {
+          "200": {
+            "description": "Retrieve testarticles document(s)",
+>>>>>>> e12faa6b0cfe4b24b5512b327bcff064f70b9f15
             "content": {
               "application/json": {
                 "schema": {
@@ -1373,11 +1424,16 @@
         },
         "summary": "",
         "tags": [
+<<<<<<< HEAD
           "Settings"
+=======
+          "Testarticles"
+>>>>>>> e12faa6b0cfe4b24b5512b327bcff064f70b9f15
         ],
         "parameters": []
       }
     },
+<<<<<<< HEAD
     "/settings/{id}": {
       "get": {
         "deprecated": false,
@@ -1389,6 +1445,19 @@
               "application/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Settings"
+=======
+    "/testarticles/{id}": {
+      "get": {
+        "deprecated": false,
+        "description": "Find one testarticles record",
+        "responses": {
+          "200": {
+            "description": "Retrieve testarticles document(s)",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Testarticles"
+>>>>>>> e12faa6b0cfe4b24b5512b327bcff064f70b9f15
                 }
               }
             }
@@ -1426,7 +1495,11 @@
         },
         "summary": "",
         "tags": [
+<<<<<<< HEAD
           "Settings"
+=======
+          "Testarticles"
+>>>>>>> e12faa6b0cfe4b24b5512b327bcff064f70b9f15
         ],
         "parameters": [
           {
@@ -1443,6 +1516,7 @@
       },
       "put": {
         "deprecated": false,
+<<<<<<< HEAD
         "description": "Update a single settings record",
         "responses": {
           "200": {
@@ -1451,6 +1525,16 @@
               "application/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Settings"
+=======
+        "description": "Update a single testarticles record",
+        "responses": {
+          "200": {
+            "description": "Retrieve testarticles document(s)",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Testarticles"
+>>>>>>> e12faa6b0cfe4b24b5512b327bcff064f70b9f15
                 }
               }
             }
@@ -1488,7 +1572,11 @@
         },
         "summary": "",
         "tags": [
+<<<<<<< HEAD
           "Settings"
+=======
+          "Testarticles"
+>>>>>>> e12faa6b0cfe4b24b5512b327bcff064f70b9f15
         ],
         "requestBody": {
           "description": "",
@@ -1496,7 +1584,11 @@
           "content": {
             "application/json": {
               "schema": {
+<<<<<<< HEAD
                 "$ref": "#/components/schemas/NewSettings"
+=======
+                "$ref": "#/components/schemas/NewTestarticles"
+>>>>>>> e12faa6b0cfe4b24b5512b327bcff064f70b9f15
               }
             }
           }
@@ -1516,10 +1608,17 @@
       },
       "delete": {
         "deprecated": false,
+<<<<<<< HEAD
         "description": "Delete a single settings record",
         "responses": {
           "200": {
             "description": "deletes a single settings based on the ID supplied",
+=======
+        "description": "Delete a single testarticles record",
+        "responses": {
+          "200": {
+            "description": "deletes a single testarticles based on the ID supplied",
+>>>>>>> e12faa6b0cfe4b24b5512b327bcff064f70b9f15
             "content": {
               "application/json": {
                 "schema": {
@@ -1562,7 +1661,522 @@
         },
         "summary": "",
         "tags": [
+<<<<<<< HEAD
           "Settings"
+=======
+          "Testarticles"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "",
+            "deprecated": false,
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ]
+      }
+    },
+    "/testcategories": {
+      "get": {
+        "deprecated": false,
+        "description": "Find all the testcategories's records",
+        "responses": {
+          "200": {
+            "description": "Retrieve testcategories document(s)",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Testcategories"
+                  }
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "summary": "",
+        "tags": [
+          "Testcategories"
+        ],
+        "parameters": [
+          {
+            "name": "_limit",
+            "in": "query",
+            "required": false,
+            "description": "Maximum number of results possible",
+            "schema": {
+              "type": "integer"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_sort",
+            "in": "query",
+            "required": false,
+            "description": "Sort according to a specific field.",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_start",
+            "in": "query",
+            "required": false,
+            "description": "Skip a specific number of entries (especially useful for pagination)",
+            "schema": {
+              "type": "integer"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "=",
+            "in": "query",
+            "required": false,
+            "description": "Get entries that matches exactly your input",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_ne",
+            "in": "query",
+            "required": false,
+            "description": "Get records that are not equals to something",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_lt",
+            "in": "query",
+            "required": false,
+            "description": "Get record that are lower than a value",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_lte",
+            "in": "query",
+            "required": false,
+            "description": "Get records that are lower than or equal to a value",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_gt",
+            "in": "query",
+            "required": false,
+            "description": "Get records that are greater than a value",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_gte",
+            "in": "query",
+            "required": false,
+            "description": "Get records that are greater than  or equal a value",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_contains",
+            "in": "query",
+            "required": false,
+            "description": "Get records that contains a value",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_containss",
+            "in": "query",
+            "required": false,
+            "description": "Get records that contains (case sensitive) a value",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_in",
+            "in": "query",
+            "required": false,
+            "description": "Get records that matches any value in the array of values",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_nin",
+            "in": "query",
+            "required": false,
+            "description": "Get records that doesn't match any value in the array of values",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "deprecated": false
+          }
+        ]
+      },
+      "post": {
+        "deprecated": false,
+        "description": "Create a new testcategories record",
+        "responses": {
+          "200": {
+            "description": "Retrieve testcategories document(s)",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Testcategories"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "summary": "",
+        "tags": [
+          "Testcategories"
+        ],
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NewTestcategories"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/testcategories/count": {
+      "get": {
+        "deprecated": false,
+        "description": "Retrieve the numver of testcategories documents",
+        "responses": {
+          "200": {
+            "description": "Retrieve testcategories document(s)",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "count": {
+                      "type": "integer"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "summary": "",
+        "tags": [
+          "Testcategories"
+        ],
+        "parameters": []
+      }
+    },
+    "/testcategories/{id}": {
+      "get": {
+        "deprecated": false,
+        "description": "Find one testcategories record",
+        "responses": {
+          "200": {
+            "description": "Retrieve testcategories document(s)",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Testcategories"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "summary": "",
+        "tags": [
+          "Testcategories"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "",
+            "deprecated": false,
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ]
+      },
+      "put": {
+        "deprecated": false,
+        "description": "Update a single testcategories record",
+        "responses": {
+          "200": {
+            "description": "Retrieve testcategories document(s)",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Testcategories"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "summary": "",
+        "tags": [
+          "Testcategories"
+        ],
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NewTestcategories"
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "",
+            "deprecated": false,
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ]
+      },
+      "delete": {
+        "deprecated": false,
+        "description": "Delete a single testcategories record",
+        "responses": {
+          "200": {
+            "description": "deletes a single testcategories based on the ID supplied",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int64"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "summary": "",
+        "tags": [
+          "Testcategories"
+>>>>>>> e12faa6b0cfe4b24b5512b327bcff064f70b9f15
         ],
         "parameters": [
           {
@@ -3948,9 +4562,101 @@
               }
             }
           },
+<<<<<<< HEAD
           "ParentCategoryFilter": {
             "type": "string",
             "default": "Рыбы"
+=======
+          "parentCategory": {
+            "required": [
+              "id",
+              "title",
+              "cover"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              },
+              "cover": {
+                "type": "string"
+              },
+              "subcategories": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "parentCategory": {
+                "type": "string"
+              },
+              "articles": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "description": {
+                "type": "string"
+              },
+              "published_at": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
+          },
+          "categoryForDescription": {
+            "required": [
+              "id",
+              "title",
+              "cover"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              },
+              "cover": {
+                "type": "string"
+              },
+              "subcategories": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "parentCategory": {
+                "type": "string"
+              },
+              "articles": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "description": {
+                "type": "string"
+              },
+              "published_at": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
+>>>>>>> e12faa6b0cfe4b24b5512b327bcff064f70b9f15
           },
           "published_at": {
             "type": "string",
@@ -3979,6 +4685,7 @@
           "parentCategory": {
             "type": "string"
           },
+<<<<<<< HEAD
           "categoryDescription": {
             "type": "string"
           },
@@ -3986,6 +4693,11 @@
             "type": "string",
             "default": "Рыбы"
           },
+=======
+          "categoryForDescription": {
+            "type": "string"
+          },
+>>>>>>> e12faa6b0cfe4b24b5512b327bcff064f70b9f15
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -4085,8 +4797,12 @@
               "required": [
                 "id",
                 "title",
+<<<<<<< HEAD
                 "cover",
                 "Parent"
+=======
+                "cover"
+>>>>>>> e12faa6b0cfe4b24b5512b327bcff064f70b9f15
               ],
               "properties": {
                 "id": {
@@ -4116,6 +4832,7 @@
                 "description": {
                   "type": "string"
                 },
+<<<<<<< HEAD
                 "LeftParent": {
                   "type": "boolean"
                 },
@@ -4125,6 +4842,8 @@
                 "Parent": {
                   "type": "string"
                 },
+=======
+>>>>>>> e12faa6b0cfe4b24b5512b327bcff064f70b9f15
                 "published_at": {
                   "type": "string"
                 },
@@ -4227,10 +4946,14 @@
                 "parentCategory": {
                   "type": "string"
                 },
+<<<<<<< HEAD
                 "categoryDescription": {
                   "type": "string"
                 },
                 "ParentCategoryFilter": {
+=======
+                "categoryForDescription": {
+>>>>>>> e12faa6b0cfe4b24b5512b327bcff064f70b9f15
                   "type": "string"
                 },
                 "published_at": {
@@ -4240,6 +4963,10 @@
                   "type": "string"
                 },
                 "updated_by": {
+<<<<<<< HEAD
+                  "type": "string"
+                }
+=======
                   "type": "string"
                 }
               }
@@ -4278,10 +5005,7 @@
               "parentCategory": {
                 "type": "string"
               },
-              "categoryDescription": {
-                "type": "string"
-              },
-              "ParentCategoryFilter": {
+              "categoryForDescription": {
                 "type": "string"
               },
               "published_at": {
@@ -4292,23 +5016,9 @@
               },
               "updated_by": {
                 "type": "string"
+>>>>>>> e12faa6b0cfe4b24b5512b327bcff064f70b9f15
               }
             }
-          },
-          "LeftParent": {
-            "type": "boolean",
-            "default": false
-          },
-          "RightParent": {
-            "type": "boolean",
-            "default": false
-          },
-          "Parent": {
-            "type": "string",
-            "enum": [
-              "DV",
-              "Tropic"
-            ]
           },
           "published_at": {
             "type": "string",
@@ -4318,8 +5028,7 @@
       },
       "NewCategories": {
         "required": [
-          "title",
-          "Parent"
+          "title"
         ],
         "properties": {
           "title": {
@@ -4342,6 +5051,286 @@
           },
           "description": {
             "type": "string"
+          },
+          "published_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "created_by": {
+            "type": "string"
+          },
+          "updated_by": {
+            "type": "string"
+          }
+        }
+      },
+      "Testarticles": {
+        "required": [
+          "id"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "parentCat": {
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              },
+              "childrenCats": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "parentCat": {
+                "type": "string"
+              },
+              "childrenArts": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "published_at": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
+          },
+          "published_at": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      },
+      "NewTestarticles": {
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "parentCat": {
+            "type": "string"
+          },
+          "published_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "created_by": {
+            "type": "string"
+          },
+          "updated_by": {
+            "type": "string"
+          }
+        }
+      },
+      "Testcategories": {
+        "required": [
+          "id"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "childrenCats": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "childrenCats": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "parentCat": {
+                  "type": "string"
+                },
+                "childrenArts": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "published_at": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "parentCat": {
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              },
+              "childrenCats": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "parentCat": {
+                "type": "string"
+              },
+<<<<<<< HEAD
+              "parentCategory": {
+                "type": "string"
+              },
+              "categoryDescription": {
+                "type": "string"
+              },
+              "ParentCategoryFilter": {
+                "type": "string"
+=======
+              "childrenArts": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+>>>>>>> e12faa6b0cfe4b24b5512b327bcff064f70b9f15
+              },
+              "published_at": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
+          },
+<<<<<<< HEAD
+          "LeftParent": {
+            "type": "boolean",
+            "default": false
+          },
+          "RightParent": {
+            "type": "boolean",
+            "default": false
+          },
+          "Parent": {
+            "type": "string",
+            "enum": [
+              "DV",
+              "Tropic"
+            ]
+=======
+          "childrenArts": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "parentCat": {
+                  "type": "string"
+                },
+                "published_at": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
+              }
+            }
+>>>>>>> e12faa6b0cfe4b24b5512b327bcff064f70b9f15
+          },
+          "published_at": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      },
+<<<<<<< HEAD
+      "NewCategories": {
+        "required": [
+          "title",
+          "Parent"
+        ],
+=======
+      "NewTestcategories": {
+>>>>>>> e12faa6b0cfe4b24b5512b327bcff064f70b9f15
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+<<<<<<< HEAD
+          "subcategories": {
+=======
+          "childrenCats": {
+>>>>>>> e12faa6b0cfe4b24b5512b327bcff064f70b9f15
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+<<<<<<< HEAD
+          },
+          "parentCategory": {
+            "type": "string"
+          },
+          "articles": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+=======
+          },
+          "parentCat": {
+            "type": "string"
+>>>>>>> e12faa6b0cfe4b24b5512b327bcff064f70b9f15
+          },
+          "childrenArts": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
           },
           "LeftParent": {
             "type": "boolean",
@@ -4697,7 +5686,14 @@
       "name": "Categories"
     },
     {
+<<<<<<< HEAD
       "name": "Settings"
+=======
+      "name": "Testarticles"
+    },
+    {
+      "name": "Testcategories"
+>>>>>>> e12faa6b0cfe4b24b5512b327bcff064f70b9f15
     },
     {
       "name": "Email - Email"

@@ -49,6 +49,7 @@
       "required": false
     },
     "parentCategory": {
+<<<<<<< HEAD
       "model": "categories",
       "via": "articles"
     },
@@ -59,6 +60,14 @@
     "ParentCategoryFilter": {
       "type": "string",
       "default": "Рыбы"
+=======
+      "via": "articles",
+      "model": "categories"
+    },
+    "categoryForDescription": {
+      "via": "description",
+      "model": "categories"
+>>>>>>> e12faa6b0cfe4b24b5512b327bcff064f70b9f15
     }
   }
 }

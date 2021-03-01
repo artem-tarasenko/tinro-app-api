@@ -34,6 +34,7 @@
       "via": "subcategories"
     },
     "articles": {
+<<<<<<< HEAD
       "via": "parentCategory",
       "collection": "article"
     },
@@ -56,6 +57,14 @@
         "Tropic"
       ],
       "required": true
+=======
+      "collection": "article",
+      "via": "parentCategory"
+    },
+    "description": {
+      "model": "article",
+      "via": "categoryForDescription"
+>>>>>>> e12faa6b0cfe4b24b5512b327bcff064f70b9f15
     }
   }
 }

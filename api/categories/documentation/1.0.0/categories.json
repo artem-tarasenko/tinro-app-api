@@ -601,8 +601,12 @@
               "required": [
                 "id",
                 "title",
+<<<<<<< HEAD
                 "cover",
                 "Parent"
+=======
+                "cover"
+>>>>>>> e12faa6b0cfe4b24b5512b327bcff064f70b9f15
               ],
               "properties": {
                 "id": {
@@ -632,6 +636,7 @@
                 "description": {
                   "type": "string"
                 },
+<<<<<<< HEAD
                 "LeftParent": {
                   "type": "boolean"
                 },
@@ -641,6 +646,8 @@
                 "Parent": {
                   "type": "string"
                 },
+=======
+>>>>>>> e12faa6b0cfe4b24b5512b327bcff064f70b9f15
                 "published_at": {
                   "type": "string"
                 },
@@ -743,10 +750,14 @@
                 "parentCategory": {
                   "type": "string"
                 },
+<<<<<<< HEAD
                 "categoryDescription": {
                   "type": "string"
                 },
                 "ParentCategoryFilter": {
+=======
+                "categoryForDescription": {
+>>>>>>> e12faa6b0cfe4b24b5512b327bcff064f70b9f15
                   "type": "string"
                 },
                 "published_at": {
@@ -794,10 +805,14 @@
               "parentCategory": {
                 "type": "string"
               },
+<<<<<<< HEAD
               "categoryDescription": {
                 "type": "string"
               },
               "ParentCategoryFilter": {
+=======
+              "categoryForDescription": {
+>>>>>>> e12faa6b0cfe4b24b5512b327bcff064f70b9f15
                 "type": "string"
               },
               "published_at": {

@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "testcategories",
+  "info": {
+    "name": "testcategories",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "childrenCats": {
+      "collection": "testcategories",
+      "via": "parentCat"
+    },
+    "parentCat": {
+      "model": "testcategories",
+      "via": "childrenCats"
+    },
+    "childrenArts": {
+      "collection": "testarticles",
+      "via": "parentCat"
+    }
+  }
+}

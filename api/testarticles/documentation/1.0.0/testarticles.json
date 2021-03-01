@@ -1,18 +1,18 @@
 {
   "paths": {
-    "/articles": {
+    "/testarticles": {
       "get": {
         "deprecated": false,
-        "description": "",
+        "description": "Find all the testarticles's records",
         "responses": {
           "200": {
-            "description": "response",
+            "description": "Retrieve testarticles document(s)",
             "content": {
               "application/json": {
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Article"
+                    "$ref": "#/components/schemas/Testarticles"
                   }
                 }
               }
@@ -51,7 +51,7 @@
         },
         "summary": "",
         "tags": [
-          "Article"
+          "Testarticles"
         ],
         "parameters": [
           {
@@ -194,14 +194,14 @@
       },
       "post": {
         "deprecated": false,
-        "description": "Create a new record",
+        "description": "Create a new testarticles record",
         "responses": {
           "200": {
-            "description": "response",
+            "description": "Retrieve testarticles document(s)",
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Article"
+                  "$ref": "#/components/schemas/Testarticles"
                 }
               }
             }
@@ -239,7 +239,7 @@
         },
         "summary": "",
         "tags": [
-          "Article"
+          "Testarticles"
         ],
         "requestBody": {
           "description": "",
@@ -247,20 +247,20 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/NewArticle"
+                "$ref": "#/components/schemas/NewTestarticles"
               }
             }
           }
         }
       }
     },
-    "/articles/count": {
+    "/testarticles/count": {
       "get": {
         "deprecated": false,
-        "description": "",
+        "description": "Retrieve the numver of testarticles documents",
         "responses": {
           "200": {
-            "description": "response",
+            "description": "Retrieve testarticles document(s)",
             "content": {
               "application/json": {
                 "schema": {
@@ -306,22 +306,22 @@
         },
         "summary": "",
         "tags": [
-          "Article"
+          "Testarticles"
         ],
         "parameters": []
       }
     },
-    "/articles/{id}": {
+    "/testarticles/{id}": {
       "get": {
         "deprecated": false,
-        "description": "",
+        "description": "Find one testarticles record",
         "responses": {
           "200": {
-            "description": "response",
+            "description": "Retrieve testarticles document(s)",
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Article"
+                  "$ref": "#/components/schemas/Testarticles"
                 }
               }
             }
@@ -359,7 +359,7 @@
         },
         "summary": "",
         "tags": [
-          "Article"
+          "Testarticles"
         ],
         "parameters": [
           {
@@ -376,14 +376,14 @@
       },
       "put": {
         "deprecated": false,
-        "description": "Update a record",
+        "description": "Update a single testarticles record",
         "responses": {
           "200": {
-            "description": "response",
+            "description": "Retrieve testarticles document(s)",
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Article"
+                  "$ref": "#/components/schemas/Testarticles"
                 }
               }
             }
@@ -421,7 +421,7 @@
         },
         "summary": "",
         "tags": [
-          "Article"
+          "Testarticles"
         ],
         "requestBody": {
           "description": "",
@@ -429,7 +429,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/NewArticle"
+                "$ref": "#/components/schemas/NewTestarticles"
               }
             }
           }
@@ -449,10 +449,10 @@
       },
       "delete": {
         "deprecated": false,
-        "description": "Delete a record",
+        "description": "Delete a single testarticles record",
         "responses": {
           "200": {
-            "description": "deletes a single record based on the ID supplied",
+            "description": "deletes a single testarticles based on the ID supplied",
             "content": {
               "application/json": {
                 "schema": {
@@ -495,7 +495,7 @@
         },
         "summary": "",
         "tags": [
-          "Article"
+          "Testarticles"
         ],
         "parameters": [
           {
@@ -514,10 +514,9 @@
   },
   "components": {
     "schemas": {
-      "Article": {
+      "Testarticles": {
         "required": [
-          "id",
-          "title"
+          "id"
         ],
         "properties": {
           "id": {
@@ -526,163 +525,9 @@
           "title": {
             "type": "string"
           },
-          "subtitle": {
-            "type": "string",
-            "default": "latin"
-          },
-          "content": {
-            "type": "string"
-          },
-          "number": {
-            "type": "string"
-          },
-          "gallery": {
-            "type": "array",
-            "items": {
-              "required": [
-                "id",
-                "name",
-                "hash",
-                "mime",
-                "size",
-                "url",
-                "provider"
-              ],
-              "properties": {
-                "id": {
-                  "type": "string"
-                },
-                "name": {
-                  "type": "string"
-                },
-                "alternativeText": {
-                  "type": "string"
-                },
-                "caption": {
-                  "type": "string"
-                },
-                "width": {
-                  "type": "integer"
-                },
-                "height": {
-                  "type": "integer"
-                },
-                "formats": {
-                  "type": "object"
-                },
-                "hash": {
-                  "type": "string"
-                },
-                "ext": {
-                  "type": "string"
-                },
-                "mime": {
-                  "type": "string"
-                },
-                "size": {
-                  "type": "number"
-                },
-                "url": {
-                  "type": "string"
-                },
-                "previewUrl": {
-                  "type": "string"
-                },
-                "provider": {
-                  "type": "string"
-                },
-                "provider_metadata": {
-                  "type": "object"
-                },
-                "related": {
-                  "type": "string"
-                },
-                "created_by": {
-                  "type": "string"
-                },
-                "updated_by": {
-                  "type": "string"
-                }
-              }
-            }
-          },
-          "cover": {
+          "parentCat": {
             "required": [
-              "id",
-              "name",
-              "hash",
-              "mime",
-              "size",
-              "url",
-              "provider"
-            ],
-            "properties": {
-              "id": {
-                "type": "string"
-              },
-              "name": {
-                "type": "string"
-              },
-              "alternativeText": {
-                "type": "string"
-              },
-              "caption": {
-                "type": "string"
-              },
-              "width": {
-                "type": "integer"
-              },
-              "height": {
-                "type": "integer"
-              },
-              "formats": {
-                "type": "object"
-              },
-              "hash": {
-                "type": "string"
-              },
-              "ext": {
-                "type": "string"
-              },
-              "mime": {
-                "type": "string"
-              },
-              "size": {
-                "type": "number"
-              },
-              "url": {
-                "type": "string"
-              },
-              "previewUrl": {
-                "type": "string"
-              },
-              "provider": {
-                "type": "string"
-              },
-              "provider_metadata": {
-                "type": "object"
-              },
-              "related": {
-                "type": "string"
-              },
-              "created_by": {
-                "type": "string"
-              },
-              "updated_by": {
-                "type": "string"
-              }
-            }
-          },
-          "parentCategory": {
-            "required": [
-              "id",
-              "title",
-<<<<<<< HEAD
-              "cover",
-              "Parent"
-=======
-              "cover"
->>>>>>> e12faa6b0cfe4b24b5512b327bcff064f70b9f15
+              "id"
             ],
             "properties": {
               "id": {
@@ -691,39 +536,21 @@
               "title": {
                 "type": "string"
               },
-              "cover": {
-                "type": "string"
-              },
-              "subcategories": {
+              "childrenCats": {
                 "type": "array",
                 "items": {
                   "type": "string"
                 }
               },
-              "parentCategory": {
+              "parentCat": {
                 "type": "string"
               },
-              "articles": {
+              "childrenArts": {
                 "type": "array",
                 "items": {
                   "type": "string"
                 }
               },
-              "description": {
-                "type": "string"
-              },
-<<<<<<< HEAD
-              "LeftParent": {
-                "type": "boolean"
-              },
-              "RightParent": {
-                "type": "boolean"
-              },
-              "Parent": {
-                "type": "string"
-              },
-=======
->>>>>>> e12faa6b0cfe4b24b5512b327bcff064f70b9f15
               "published_at": {
                 "type": "string"
               },
@@ -735,119 +562,20 @@
               }
             }
           },
-<<<<<<< HEAD
-          "categoryDescription": {
-            "required": [
-              "id",
-              "title",
-              "cover",
-              "Parent"
-=======
-          "categoryForDescription": {
-            "required": [
-              "id",
-              "title",
-              "cover"
->>>>>>> e12faa6b0cfe4b24b5512b327bcff064f70b9f15
-            ],
-            "properties": {
-              "id": {
-                "type": "string"
-              },
-              "title": {
-                "type": "string"
-              },
-              "cover": {
-                "type": "string"
-              },
-              "subcategories": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "parentCategory": {
-                "type": "string"
-              },
-              "articles": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "description": {
-                "type": "string"
-              },
-<<<<<<< HEAD
-              "LeftParent": {
-                "type": "boolean"
-              },
-              "RightParent": {
-                "type": "boolean"
-              },
-              "Parent": {
-                "type": "string"
-              },
-=======
->>>>>>> e12faa6b0cfe4b24b5512b327bcff064f70b9f15
-              "published_at": {
-                "type": "string"
-              },
-              "created_by": {
-                "type": "string"
-              },
-              "updated_by": {
-                "type": "string"
-              }
-            }
-          },
-<<<<<<< HEAD
-          "ParentCategoryFilter": {
-            "type": "string",
-            "default": "Рыбы"
-          },
-=======
->>>>>>> e12faa6b0cfe4b24b5512b327bcff064f70b9f15
           "published_at": {
             "type": "string",
             "format": "date-time"
           }
         }
       },
-      "NewArticle": {
-        "required": [
-          "title"
-        ],
+      "NewTestarticles": {
         "properties": {
           "title": {
             "type": "string"
           },
-          "subtitle": {
-            "type": "string",
-            "default": "latin"
-          },
-          "content": {
+          "parentCat": {
             "type": "string"
           },
-          "number": {
-            "type": "string"
-          },
-          "parentCategory": {
-            "type": "string"
-          },
-<<<<<<< HEAD
-          "categoryDescription": {
-            "type": "string"
-          },
-          "ParentCategoryFilter": {
-            "type": "string",
-            "default": "Рыбы"
-          },
-=======
-          "categoryForDescription": {
-            "type": "string"
-          },
->>>>>>> e12faa6b0cfe4b24b5512b327bcff064f70b9f15
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -864,7 +592,7 @@
   },
   "tags": [
     {
-      "name": "Article"
+      "name": "Testarticles"
     }
   ]
 }
