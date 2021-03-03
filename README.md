@@ -1,3 +1,3 @@
-# Tinro API
+# Strapi application
 
-production branch
+A quick description of your strapi application
